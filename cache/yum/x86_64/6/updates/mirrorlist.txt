@@ -1,0 +1,2 @@
+http://d36uatko69830t.cloudfront.net/centos/6/updates/x86_64/
+http://mirror.centos.org/centos/6/updates/x86_64/

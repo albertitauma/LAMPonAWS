@@ -1,0 +1,96 @@
+14:59:46,484 DEBUG   : Network.update() called
+14:59:46,486 DEBUG   : /etc/sysconfig/network-scripts/ifcfg-eth0:
+DEVICE=eth0
+HWADDR=52:54:00:E1:2C:7D
+UUID=7967a7f9-0c3d-497b-bd32-49128146ff16
+ONBOOT=yes
+TYPE=Ethernet
+BOOTPROTO=dhcp
+MTU=1500
+
+14:59:46,486 DEBUG   : NetworkDevice eth0:
+
+14:59:46,487 DEBUG   : loadIfcfgFile eth0 from /etc/sysconfig/network-scripts/ifcfg-eth0
+14:59:46,487 DEBUG   : NetworkDevice eth0:
+DEVICE="eth0"
+BOOTPROTO="dhcp"
+HWADDR="52:54:00:E1:2C:7D"
+MTU="1500"
+ONBOOT="yes"
+TYPE="Ethernet"
+UUID="7967a7f9-0c3d-497b-bd32-49128146ff16"
+
+14:59:46,491 DEBUG   : NetworkDevice eth0 set: NM_CONTROLLED=yes
+14:59:46,498 DEBUG   : Network.update() called
+14:59:46,500 DEBUG   : /etc/sysconfig/network-scripts/ifcfg-eth0:
+DEVICE=eth0
+HWADDR=52:54:00:E1:2C:7D
+UUID=7967a7f9-0c3d-497b-bd32-49128146ff16
+ONBOOT=yes
+TYPE=Ethernet
+BOOTPROTO=dhcp
+MTU=1500
+
+14:59:46,500 DEBUG   : NetworkDevice eth0:
+
+14:59:46,500 DEBUG   : loadIfcfgFile eth0 from /etc/sysconfig/network-scripts/ifcfg-eth0
+14:59:46,500 DEBUG   : NetworkDevice eth0:
+DEVICE="eth0"
+BOOTPROTO="dhcp"
+HWADDR="52:54:00:E1:2C:7D"
+MTU="1500"
+ONBOOT="yes"
+TYPE="Ethernet"
+UUID="7967a7f9-0c3d-497b-bd32-49128146ff16"
+
+14:59:46,504 DEBUG   : NetworkDevice eth0 set: NM_CONTROLLED=yes
+14:59:47,015 DEBUG   : NetworkDevice eth0 set: BOOTPROTO=dhcp
+14:59:47,015 DEBUG   : NetworkDevice eth0 set: DHCPCLASS=
+14:59:47,016 DEBUG   : NetworkDevice eth0 set: IPV6INIT=yes
+14:59:47,016 DEBUG   : NetworkDevice eth0 set: ONBOOT=yes
+15:00:02,934 DEBUG   : Network.write() called
+15:00:02,934 DEBUG   : /etc/sysconfig/network-scripts/ifcfg-eth0:
+DEVICE=eth0
+HWADDR=52:54:00:E1:2C:7D
+UUID=7967a7f9-0c3d-497b-bd32-49128146ff16
+ONBOOT=yes
+TYPE=Ethernet
+BOOTPROTO=dhcp
+MTU=1500
+
+15:00:02,934 DEBUG   : NetworkDevice eth0:
+DEVICE="eth0"
+BOOTPROTO="dhcp"
+HWADDR="52:54:00:E1:2C:7D"
+IPV6INIT="yes"
+MTU="1500"
+NM_CONTROLLED="yes"
+ONBOOT="yes"
+TYPE="Ethernet"
+UUID="7967a7f9-0c3d-497b-bd32-49128146ff16"
+
+15:00:02,935 DEBUG   : writeIfcfgFile eth0 to /etc/sysconfig/network-scripts/ifcfg-eth0
+15:01:12,411 DEBUG   : Network.write() called
+15:01:12,412 DEBUG   : /etc/sysconfig/network-scripts/ifcfg-eth0:
+DEVICE="eth0"
+BOOTPROTO="dhcp"
+HWADDR="52:54:00:E1:2C:7D"
+IPV6INIT="yes"
+MTU="1500"
+NM_CONTROLLED="yes"
+ONBOOT="yes"
+TYPE="Ethernet"
+UUID="7967a7f9-0c3d-497b-bd32-49128146ff16"
+
+15:01:12,412 DEBUG   : NetworkDevice eth0:
+DEVICE="eth0"
+BOOTPROTO="dhcp"
+HWADDR="52:54:00:E1:2C:7D"
+IPV6INIT="yes"
+MTU="1500"
+NM_CONTROLLED="yes"
+ONBOOT="yes"
+TYPE="Ethernet"
+UUID="7967a7f9-0c3d-497b-bd32-49128146ff16"
+
+15:01:12,412 DEBUG   : writeIfcfgFile eth0 to /etc/sysconfig/network-scripts/ifcfg-eth0 not needed

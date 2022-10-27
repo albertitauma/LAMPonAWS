@@ -1,0 +1,45 @@
+214:b1dea789780088f122aa9cd6b80df48d907d8606
+32
+0
+5
+mbr: php,x86_64,0,5.3.3,50.el6_10 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: php-mysql,x86_64,0,5.3.3,50.el6_10 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: php-cli,x86_64,0,5.3.3,50.el6_10 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php,x86_64,0,5.3.3,50.el6_10@a:dependson
+  depends_on: php,x86_64,0,5.3.3,50.el6_10@a
+mbr: php-common,x86_64,0,5.3.3,50.el6_10 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php,x86_64,0,5.3.3,50.el6_10@a:dependson php-mysql,x86_64,0,5.3.3,50.el6_10@a:dependson php-cli,x86_64,0,5.3.3,50.el6_10@a:dependson php-pdo,x86_64,0,5.3.3,50.el6_10@a:dependson
+  depends_on: php,x86_64,0,5.3.3,50.el6_10@a
+mbr: php-pdo,x86_64,0,5.3.3,50.el6_10 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-mysql,x86_64,0,5.3.3,50.el6_10@a:dependson
+  depends_on: php-mysql,x86_64,0,5.3.3,50.el6_10@a

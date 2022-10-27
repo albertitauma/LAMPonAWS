@@ -1,0 +1,53 @@
+[Wed Oct 26 18:14:11 2022] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Oct 26 18:14:11 2022] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 26 18:14:11 2022] [notice] Digest: done
+[Wed Oct 26 18:14:11 2022] [notice] Apache/2.2.15 (Unix) DAV/2 configured -- resuming normal operations
+[Wed Oct 26 18:28:35 2022] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Oct 26 18:28:35 2022] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 26 18:28:35 2022] [notice] Digest: done
+[Wed Oct 26 18:28:35 2022] [warn] pid file /etc/httpd/run/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 26 18:28:35 2022] [notice] Apache/2.2.15 (Unix) DAV/2 configured -- resuming normal operations
+[Wed Oct 26 18:47:16 2022] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Oct 26 18:47:16 2022] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 26 18:47:16 2022] [notice] Digest: done
+[Wed Oct 26 18:47:16 2022] [warn] pid file /etc/httpd/run/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 26 18:47:16 2022] [notice] Apache/2.2.15 (Unix) DAV/2 configured -- resuming normal operations
+[Wed Oct 26 18:47:37 2022] [notice] caught SIGTERM, shutting down
+[Wed Oct 26 18:47:37 2022] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Oct 26 18:47:37 2022] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 26 18:47:37 2022] [notice] Digest: done
+[Wed Oct 26 18:47:37 2022] [notice] Apache/2.2.15 (Unix) DAV/2 configured -- resuming normal operations
+[Wed Oct 26 18:47:56 2022] [error] [client 98.198.50.196] Directory index forbidden by Options directive: /var/www/html/
+[Wed Oct 26 18:47:56 2022] [error] [client 98.198.50.196] File does not exist: /var/www/html/favicon.ico, referer: http://34.227.26.39:81/
+[Wed Oct 26 18:50:35 2022] [error] [client 98.198.50.196] Directory index forbidden by Options directive: /var/www/html/
+[Wed Oct 26 18:50:35 2022] [error] [client 98.198.50.196] File does not exist: /var/www/html/favicon.ico, referer: http://34.227.26.39:81/
+[Wed Oct 26 20:19:23 2022] [notice] caught SIGTERM, shutting down
+[Wed Oct 26 20:19:23 2022] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Oct 26 20:19:23 2022] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 26 20:19:23 2022] [notice] Digest: done
+[Wed Oct 26 20:19:23 2022] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Wed Oct 26 20:20:01 2022] [error] [client 35.178.235.36] File does not exist: /var/www/html/favicon.ico
+[Wed Oct 26 20:20:05 2022] [error] [client 35.178.235.36] File does not exist: /var/www/html/manage
+[Wed Oct 26 20:20:09 2022] [error] [client 35.178.235.36] File does not exist: /var/www/html/admin
+[Wed Oct 26 20:20:13 2022] [error] [client 35.178.235.36] File does not exist: /var/www/html/index.html
+[Wed Oct 26 20:20:17 2022] [error] [client 35.178.235.36] Directory index forbidden by Options directive: /var/www/html/
+[Wed Oct 26 20:20:43 2022] [notice] caught SIGTERM, shutting down
+[Wed Oct 26 20:20:43 2022] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Oct 26 20:20:43 2022] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 26 20:20:43 2022] [notice] Digest: done
+[Wed Oct 26 20:20:43 2022] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Wed Oct 26 20:21:48 2022] [error] [client 98.198.50.196] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'UTC' for 'UTC/0.0/no DST' instead in /var/www/html/info.php on line 2
+[Wed Oct 26 20:31:18 2022] [notice] caught SIGTERM, shutting down
+[Wed Oct 26 20:31:18 2022] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Oct 26 20:31:18 2022] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 26 20:31:18 2022] [notice] Digest: done
+[Wed Oct 26 20:31:18 2022] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Wed Oct 26 20:51:53 2022] [notice] caught SIGTERM, shutting down
+[Wed Oct 26 20:51:53 2022] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Oct 26 20:51:53 2022] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 26 20:51:53 2022] [notice] Digest: done
+[Wed Oct 26 20:51:53 2022] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Wed Oct 26 20:59:27 2022] [error] [client 34.227.26.39] File does not exist: /var/www/html/2022, referer: http://34.227.26.39:81/2022/10/26/hello-world/
+sh: /usr/sbin/sendmail: No such file or directory
+[Wed Oct 26 21:29:44 2022] [error] [client 194.55.186.198] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): login.cgi
+[Wed Oct 26 22:17:27 2022] [error] [client 194.55.186.198] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): login.cgi

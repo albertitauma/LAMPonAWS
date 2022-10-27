@@ -1,0 +1,684 @@
+14:59:02,536 INFO kernel:imklog 5.8.10, log source = /proc/kmsg started.
+14:59:02,536 INFO rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="62" x-info="http://www.rsyslog.com"] start
+14:59:02,536 ERR rsyslogd:WARNING: rsyslogd is running in compatibility mode. Automatically generated config directives may interfer with your rsyslog.conf settings. We suggest upgrading your config and adding -c5 as the first rsyslogd option.
+14:59:02,536 ERR rsyslogd:Warning: backward compatibility layer added to following directive to rsyslog.conf: ModLoad immark
+14:59:02,536 ERR rsyslogd:Warning: backward compatibility layer added to following directive to rsyslog.conf: MarkMessagePeriod 1200
+14:59:02,536 ERR rsyslogd:Warning: backward compatibility layer added to following directive to rsyslog.conf: ModLoad imuxsock
+14:59:02,538 INFO kernel:Initializing cgroup subsys cpuset
+14:59:02,538 INFO kernel:Initializing cgroup subsys cpu
+14:59:02,538 NOTICE kernel:Linux version 2.6.32-696.el6.x86_64 (mockbuild@c1bm.rdu2.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Tue Mar 21 19:29:05 UTC 2017
+14:59:02,538 INFO kernel:Command line: ks=file:/centos-6.ks inst.cmdline console=ttyS0
+14:59:02,538 INFO kernel:KERNEL supported cpus:
+14:59:02,538 INFO kernel:  Intel GenuineIntel
+14:59:02,538 INFO kernel:  AMD AuthenticAMD
+14:59:02,538 INFO kernel:  Centaur CentaurHauls
+14:59:02,538 INFO kernel:BIOS-provided physical RAM map:
+14:59:02,538 INFO kernel: BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+14:59:02,538 INFO kernel: BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+14:59:02,538 INFO kernel: BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+14:59:02,538 INFO kernel: BIOS-e820: 0000000000100000 - 000000003fffe000 (usable)
+14:59:02,538 INFO kernel: BIOS-e820: 000000003fffe000 - 0000000040000000 (reserved)
+14:59:02,538 INFO kernel: BIOS-e820: 00000000feffc000 - 00000000ff000000 (reserved)
+14:59:02,538 INFO kernel: BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+14:59:02,538 WARNING kernel:SMBIOS version 2.4 @ 0xF7250
+14:59:02,538 INFO kernel:SMBIOS 2.4 present.
+14:59:02,538 DEBUG kernel:DMI: Red Hat KVM, BIOS 0.5.1 01/01/2011
+14:59:02,538 INFO kernel:Hypervisor detected: KVM
+14:59:02,538 DEBUG kernel:e820 update range: 0000000000000000 - 0000000000001000 (usable) ==> (reserved)
+14:59:02,538 DEBUG kernel:e820 remove range: 00000000000a0000 - 0000000000100000 (usable)
+14:59:02,538 INFO kernel:last_pfn = 0x3fffe max_arch_pfn = 0x400000000
+14:59:02,538 INFO kernel:x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+14:59:02,538 DEBUG kernel:initial memory mapped : 0 - 20000000
+14:59:02,538 INFO kernel:init_memory_mapping: 0000000000000000-000000003fffe000
+14:59:02,538 DEBUG kernel: 0000000000 - 003fe00000 page 2M
+14:59:02,538 DEBUG kernel: 003fe00000 - 003fffe000 page 4k
+14:59:02,538 DEBUG kernel:kernel direct mapping tables up to 3fffe000 @ 8000-b000
+14:59:02,538 INFO kernel:RAMDISK: 3d846000 - 3ffefa2f
+14:59:02,538 INFO kernel:ACPI: Deleted _OSI(Windows 2012)
+14:59:02,538 INFO kernel:ACPI: Deleted _OSI(Windows 2013)
+14:59:02,538 WARNING kernel:ACPI: RSDP 00000000000f7220 00014 (v00 BOCHS )
+14:59:02,538 WARNING kernel:ACPI: RSDT 000000003ffffa9b 00030 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+14:59:02,538 WARNING kernel:ACPI: FACP 000000003ffff177 00074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+14:59:02,538 WARNING kernel:ACPI: DSDT 000000003fffe040 01137 (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+14:59:02,538 WARNING kernel:ACPI: FACS 000000003fffe000 00040
+14:59:02,538 WARNING kernel:ACPI: SSDT 000000003ffff1eb 00838 (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+14:59:02,538 WARNING kernel:ACPI: APIC 000000003ffffa23 00078 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+14:59:02,538 DEBUG kernel:ACPI: Local APIC address 0xfee00000
+14:59:02,538 INFO kernel:Setting APIC routing to flat.
+14:59:02,538 INFO kernel:No NUMA configuration found
+14:59:02,538 INFO kernel:Faking a node at 0000000000000000-000000003fffe000
+14:59:02,538 INFO kernel:Bootmem setup node 0 0000000000000000-000000003fffe000
+14:59:02,538 INFO kernel:  NODE_DATA [0000000000009000 - 000000000003cfff]
+14:59:02,538 INFO kernel:  bootmap [000000000003d000 -  0000000000044fff] pages 8
+14:59:02,538 INFO kernel:(7 early reservations) ==> bootmem [0000000000 - 003fffe000]
+14:59:02,538 INFO kernel:  #0 [0000000000 - 0000001000]   BIOS data page ==> [0000000000 - 0000001000]
+14:59:02,538 INFO kernel:  #1 [0000006000 - 0000008000]       TRAMPOLINE ==> [0000006000 - 0000008000]
+14:59:02,538 INFO kernel:  #2 [0001000000 - 0002045964]    TEXT DATA BSS ==> [0001000000 - 0002045964]
+14:59:02,538 INFO kernel:  #3 [003d846000 - 003ffefa2f]          RAMDISK ==> [003d846000 - 003ffefa2f]
+14:59:02,538 INFO kernel:  #4 [000009fc00 - 0000100000]    BIOS reserved ==> [000009fc00 - 0000100000]
+14:59:02,538 INFO kernel:  #5 [0002046000 - 00020460b9]              BRK ==> [0002046000 - 00020460b9]
+14:59:02,538 INFO kernel:  #6 [0000008000 - 0000009000]          PGTABLE ==> [0000008000 - 0000009000]
+14:59:02,538 INFO kernel:found SMP MP-table at [ffff8800000f73c0] f73c0
+14:59:02,538 INFO kernel:kvm-clock: Using msrs 4b564d01 and 4b564d00
+14:59:02,538 INFO kernel:kvm-clock: cpu 0, msr 0:1c39e41, boot clock
+14:59:02,538 DEBUG kernel: [ffffea0000000000-ffffea0000dfffff] PMD -> [ffff880002600000-ffff8800033fffff] on node 0
+14:59:02,538 WARNING kernel:Zone PFN ranges:
+14:59:02,538 WARNING kernel:  DMA      0x00000001 -> 0x00001000
+14:59:02,538 WARNING kernel:  DMA32    0x00001000 -> 0x00100000
+14:59:02,538 WARNING kernel:  Normal   0x00100000 -> 0x00100000
+14:59:02,538 WARNING kernel:Movable zone start PFN for each node
+14:59:02,538 WARNING kernel:early_node_map[2] active PFN ranges
+14:59:02,538 WARNING kernel:    0: 0x00000001 -> 0x0000009f
+14:59:02,538 WARNING kernel:    0: 0x00000100 -> 0x0003fffe
+14:59:02,538 DEBUG kernel:On node 0 totalpages: 262044
+14:59:02,538 DEBUG kernel:  DMA zone: 56 pages used for memmap
+14:59:02,538 DEBUG kernel:  DMA zone: 100 pages reserved
+14:59:02,538 DEBUG kernel:  DMA zone: 3842 pages, LIFO batch:0
+14:59:02,538 DEBUG kernel:  DMA32 zone: 3528 pages used for memmap
+14:59:02,538 DEBUG kernel:  DMA32 zone: 254518 pages, LIFO batch:31
+14:59:02,538 INFO kernel:ACPI: PM-Timer IO Port: 0x608
+14:59:02,538 DEBUG kernel:ACPI: Local APIC address 0xfee00000
+14:59:02,538 INFO kernel:Setting APIC routing to flat.
+14:59:02,538 INFO kernel:ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+14:59:02,538 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+14:59:02,538 INFO kernel:ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+14:59:02,538 INFO kernel:IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+14:59:02,538 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+14:59:02,538 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+14:59:02,538 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+14:59:02,538 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+14:59:02,538 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+14:59:02,538 DEBUG kernel:ACPI: IRQ0 used by override.
+14:59:02,538 DEBUG kernel:ACPI: IRQ2 used by override.
+14:59:02,538 DEBUG kernel:ACPI: IRQ5 used by override.
+14:59:02,538 DEBUG kernel:ACPI: IRQ9 used by override.
+14:59:02,538 DEBUG kernel:ACPI: IRQ10 used by override.
+14:59:02,538 DEBUG kernel:ACPI: IRQ11 used by override.
+14:59:02,538 INFO kernel:Using ACPI (MADT) for SMP configuration information
+14:59:02,538 INFO kernel:SMP: Allowing 1 CPUs, 0 hotplug CPUs
+14:59:02,538 DEBUG kernel:nr_irqs_gsi: 24
+14:59:02,538 INFO kernel:PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+14:59:02,538 INFO kernel:PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+14:59:02,538 INFO kernel:PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+14:59:02,538 INFO kernel:Allocating PCI resources starting at 40000000 (gap: 40000000:beffc000)
+14:59:02,538 INFO kernel:Booting paravirtualized kernel on KVM
+14:59:02,538 INFO kernel:NR_CPUS:4096 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+14:59:02,538 INFO kernel:PERCPU: Embedded 31 pages/cpu @ffff880002200000 s96600 r8192 d22184 u2097152
+14:59:02,538 INFO kernel:pcpu-alloc: s96600 r8192 d22184 u2097152 alloc=1*2097152
+14:59:02,538 INFO kernel:pcpu-alloc: [0] 0 
+14:59:02,538 INFO kernel:kvm-clock: cpu 0, msr 0:2216e41, primary cpu clock
+14:59:02,538 INFO kernel:kvm-stealtime: cpu 0, msr 220ed00
+14:59:02,538 WARNING kernel:Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258360
+14:59:02,538 WARNING kernel:Policy zone: DMA32
+14:59:02,538 NOTICE kernel:Kernel command line: ks=file:/centos-6.ks inst.cmdline console=ttyS0
+14:59:02,538 INFO kernel:PID hash table entries: 4096 (order: 3, 32768 bytes)
+14:59:02,538 INFO kernel:x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+14:59:02,538 INFO kernel:xsave/xrstor: enabled xstate_bv 0x7, cntxt size 0x340
+14:59:02,538 INFO kernel:Memory: 975932k/1048568k available (5467k kernel code, 392k absent, 72244k reserved, 6954k data, 1316k init)
+14:59:02,538 INFO kernel:Hierarchical RCU implementation.
+14:59:02,538 INFO kernel:NR_IRQS:33024 nr_irqs:256
+14:59:02,538 WARNING kernel:Console: colour *CGA 80x25
+14:59:02,538 INFO kernel:console [ttyS0] enabled
+14:59:02,538 INFO kernel:allocated 4194304 bytes of page_cgroup
+14:59:02,538 INFO kernel:please try 'cgroup_disable=memory' option if you don't want memory cgroups
+14:59:02,538 WARNING kernel:Detected 2400.016 MHz processor.
+14:59:02,538 INFO kernel:Calibrating delay loop (skipped) preset value.. 4800.03 BogoMIPS (lpj=2400016)
+14:59:02,538 INFO kernel:pid_max: default: 32768 minimum: 301
+14:59:02,538 INFO kernel:Security Framework initialized
+14:59:02,538 INFO kernel:SELinux:  Initializing.
+14:59:02,538 DEBUG kernel:SELinux:  Starting in permissive mode
+14:59:02,538 INFO kernel:Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+14:59:02,538 INFO kernel:Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+14:59:02,538 WARNING kernel:Mount-cache hash table entries: 256
+14:59:02,538 INFO kernel:Initializing cgroup subsys ns
+14:59:02,538 INFO kernel:Initializing cgroup subsys cpuacct
+14:59:02,538 INFO kernel:Initializing cgroup subsys memory
+14:59:02,538 INFO kernel:Initializing cgroup subsys devices
+14:59:02,538 INFO kernel:Initializing cgroup subsys freezer
+14:59:02,538 INFO kernel:Initializing cgroup subsys net_cls
+14:59:02,538 INFO kernel:Initializing cgroup subsys blkio
+14:59:02,538 INFO kernel:Initializing cgroup subsys perf_event
+14:59:02,538 INFO kernel:Initializing cgroup subsys net_prio
+14:59:02,538 INFO kernel:mce: CPU supports 10 MCE banks
+14:59:02,538 INFO kernel:alternatives: switching to unfair spinlock
+14:59:02,538 INFO kernel:SMP alternatives: switching to UP code
+14:59:02,538 INFO kernel:Freeing SMP alternatives: 37k freed
+14:59:02,538 INFO kernel:ACPI: Core revision 20090903
+14:59:02,538 INFO kernel:ftrace: converting mcount calls to 0f 1f 44 00 00
+14:59:02,538 INFO kernel:ftrace: allocating 21966 entries in 87 pages
+14:59:02,538 INFO kernel:Enabling x2apic
+14:59:02,538 INFO kernel:Enabled x2apic
+14:59:02,538 INFO kernel:APIC routing finalized to physical x2apic.
+14:59:02,538 INFO kernel:..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+14:59:02,538 INFO kernel:CPU0: Intel Xeon E312xx (Sandy Bridge) stepping 01
+14:59:02,538 INFO kernel:Performance Events: unsupported p6 CPU model 42 no PMU driver, software events only.
+14:59:02,538 WARNING kernel:NMI watchdog disabled (cpu0): hardware events not enabled
+14:59:02,538 INFO kernel:Brought up 1 CPUs
+14:59:02,538 INFO kernel:Total of 1 processors activated (4800.03 BogoMIPS).
+14:59:02,538 DEBUG kernel:sizeof(vma)=200 bytes
+14:59:02,538 DEBUG kernel:sizeof(page)=56 bytes
+14:59:02,539 DEBUG kernel:sizeof(inode)=592 bytes
+14:59:02,539 DEBUG kernel:sizeof(dentry)=192 bytes
+14:59:02,539 DEBUG kernel:sizeof(ext3inode)=800 bytes
+14:59:02,539 DEBUG kernel:sizeof(buffer_head)=104 bytes
+14:59:02,539 DEBUG kernel:sizeof(skbuff)=232 bytes
+14:59:02,539 DEBUG kernel:sizeof(task_struct)=2672 bytes
+14:59:02,539 INFO kernel:devtmpfs: initialized
+14:59:02,539 INFO kernel:regulator: core version 0.5
+14:59:02,539 INFO kernel:NET: Registered protocol family 16
+14:59:02,539 INFO kernel:ACPI: bus type pci registered
+14:59:02,539 INFO kernel:PCI: Using configuration type 1 for base access
+14:59:02,539 WARNING kernel:bio: create slab <bio-0> at 0
+14:59:02,539 DEBUG kernel:ACPI: EC: Look up EC in DSDT
+14:59:02,539 INFO kernel:ACPI: Interpreter enabled
+14:59:02,539 INFO kernel:ACPI: (supports S0 S5)
+14:59:02,539 INFO kernel:ACPI: Using IOAPIC for interrupt routing
+14:59:02,539 INFO kernel:ACPI: No dock devices found.
+14:59:02,539 INFO kernel:PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+14:59:02,539 INFO kernel:ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+14:59:02,539 INFO kernel:pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7]
+14:59:02,539 INFO kernel:pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff]
+14:59:02,539 INFO kernel:pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff]
+14:59:02,539 INFO kernel:pci_root PNP0A03:00: host bridge window [mem 0x40000000-0xfebfffff]
+14:59:02,539 INFO kernel:PCI host bridge to bus 0000:00
+14:59:02,539 INFO kernel:pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+14:59:02,539 INFO kernel:pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+14:59:02,539 INFO kernel:pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+14:59:02,539 INFO kernel:pci_bus 0000:00: root bus resource [mem 0x40000000-0xfebfffff]
+14:59:02,539 DEBUG kernel:pci 0000:00:01.1: reg 20: [io  0xc1a0-0xc1af]
+14:59:02,539 INFO kernel:pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+14:59:02,539 INFO kernel:pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+14:59:02,539 DEBUG kernel:pci 0000:00:03.0: reg 10: [io  0xc000-0xc0ff]
+14:59:02,539 DEBUG kernel:pci 0000:00:03.0: reg 14: [mem 0xfebc0000-0xfebc00ff]
+14:59:02,539 DEBUG kernel:pci 0000:00:03.0: reg 30: [mem 0xfeb80000-0xfebbffff pref]
+14:59:02,539 DEBUG kernel:pci 0000:00:04.0: reg 10: [io  0xc100-0xc11f]
+14:59:02,539 DEBUG kernel:pci 0000:00:04.0: reg 14: [mem 0xfebc1000-0xfebc1fff]
+14:59:02,539 DEBUG kernel:pci 0000:00:05.0: reg 20: [io  0xc120-0xc13f]
+14:59:02,539 DEBUG kernel:pci 0000:00:05.1: reg 20: [io  0xc140-0xc15f]
+14:59:02,539 DEBUG kernel:pci 0000:00:05.2: reg 20: [io  0xc160-0xc17f]
+14:59:02,539 DEBUG kernel:pci 0000:00:05.7: reg 10: [mem 0xfebc2000-0xfebc2fff]
+14:59:02,539 DEBUG kernel:pci 0000:00:06.0: reg 10: [io  0xc180-0xc19f]
+14:59:02,539 DEBUG kernel:ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+14:59:02,539 INFO kernel:ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+14:59:02,539 INFO kernel:ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+14:59:02,539 INFO kernel:ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+14:59:02,539 INFO kernel:ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+14:59:02,539 INFO kernel:ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+14:59:02,539 INFO kernel:vgaarb: loaded
+14:59:02,539 NOTICE kernel:SCSI subsystem initialized
+14:59:02,539 DEBUG kernel:libata version 3.00 loaded.
+14:59:02,539 INFO kernel:usbcore: registered new interface driver usbfs
+14:59:02,539 INFO kernel:usbcore: registered new interface driver hub
+14:59:02,539 INFO kernel:usbcore: registered new device driver usb
+14:59:02,539 INFO kernel:PCI: Using ACPI for IRQ routing
+14:59:02,539 DEBUG kernel:PCI: old code would have set cacheline size to 32 bytes, but clflush_size = 64
+14:59:02,539 DEBUG kernel:PCI: pci_cache_line_size set to 64 bytes
+14:59:02,539 INFO kernel:NetLabel: Initializing
+14:59:02,539 INFO kernel:NetLabel:  domain hash size = 128
+14:59:02,539 INFO kernel:NetLabel:  protocols = UNLABELED CIPSOv4
+14:59:02,539 INFO kernel:NetLabel:  unlabeled traffic allowed by default
+14:59:02,539 INFO kernel:Switching to clocksource kvm-clock
+14:59:02,539 INFO kernel:pnp: PnP ACPI init
+14:59:02,539 INFO kernel:ACPI: bus type pnp registered
+14:59:02,539 DEBUG kernel:pnp 00:00: [io  0x0cf8-0x0cff]
+14:59:02,539 DEBUG kernel:pnp 00:00: Plug and Play ACPI device, IDs PNP0a03 (active)
+14:59:02,539 DEBUG kernel:pnp 00:01: [io  0x0070-0x0071]
+14:59:02,539 DEBUG kernel:pnp 00:01: [irq 8]
+14:59:02,539 DEBUG kernel:pnp 00:01: [io  0x0072-0x0077]
+14:59:02,539 DEBUG kernel:pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+14:59:02,539 DEBUG kernel:pnp 00:02: [io  0x0060]
+14:59:02,539 DEBUG kernel:pnp 00:02: [io  0x0064]
+14:59:02,539 DEBUG kernel:pnp 00:02: [irq 1]
+14:59:02,539 DEBUG kernel:pnp 00:02: Plug and Play ACPI device, IDs PNP0303 (active)
+14:59:02,539 DEBUG kernel:pnp 00:03: [irq 12]
+14:59:02,539 DEBUG kernel:pnp 00:03: Plug and Play ACPI device, IDs PNP0f13 (active)
+14:59:02,539 DEBUG kernel:pnp 00:04: [io  0x03f2-0x03f5]
+14:59:02,539 DEBUG kernel:pnp 00:04: [io  0x03f7]
+14:59:02,539 DEBUG kernel:pnp 00:04: [irq 6]
+14:59:02,539 DEBUG kernel:pnp 00:04: [dma 2]
+14:59:02,539 DEBUG kernel:pnp 00:04: Plug and Play ACPI device, IDs PNP0700 (active)
+14:59:02,539 DEBUG kernel:pnp 00:05: [io  0x03f8-0x03ff]
+14:59:02,539 DEBUG kernel:pnp 00:05: [irq 4]
+14:59:02,539 DEBUG kernel:pnp 00:05: Plug and Play ACPI device, IDs PNP0501 (active)
+14:59:02,539 INFO kernel:pnp: PnP ACPI: found 6 devices
+14:59:02,539 INFO kernel:ACPI: ACPI bus type pnp unregistered
+14:59:02,539 DEBUG kernel:pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+14:59:02,539 DEBUG kernel:pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+14:59:02,539 DEBUG kernel:pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+14:59:02,539 DEBUG kernel:pci_bus 0000:00: resource 7 [mem 0x40000000-0xfebfffff]
+14:59:02,539 INFO kernel:NET: Registered protocol family 2
+14:59:02,539 INFO kernel:IP route cache hash table entries: 32768 (order: 6, 262144 bytes)
+14:59:02,539 INFO kernel:TCP established hash table entries: 131072 (order: 9, 2097152 bytes)
+14:59:02,539 INFO kernel:TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+14:59:02,539 INFO kernel:TCP: Hash tables configured (established 131072 bind 65536)
+14:59:02,539 INFO kernel:TCP reno registered
+14:59:02,539 INFO kernel:NET: Registered protocol family 1
+14:59:02,539 INFO kernel:pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+14:59:02,539 INFO kernel:pci 0000:00:01.0: PIIX3: Enabling Passive Release
+14:59:02,539 INFO kernel:pci 0000:00:01.0: Activating ISA DMA hang workarounds
+14:59:02,539 WARNING kernel:ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+14:59:02,539 INFO kernel:pci 0000:00:05.0: PCI INT A -> Link[LNKA] -> GSI 10 (level, high) -> IRQ 10
+14:59:02,539 INFO kernel:pci 0000:00:05.0: PCI INT A disabled
+14:59:02,539 WARNING kernel:ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 11
+14:59:02,539 INFO kernel:pci 0000:00:05.1: PCI INT B -> Link[LNKB] -> GSI 11 (level, high) -> IRQ 11
+14:59:02,539 INFO kernel:pci 0000:00:05.1: PCI INT B disabled
+14:59:02,539 WARNING kernel:ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 11
+14:59:02,539 INFO kernel:pci 0000:00:05.2: PCI INT C -> Link[LNKC] -> GSI 11 (level, high) -> IRQ 11
+14:59:02,539 INFO kernel:pci 0000:00:05.2: PCI INT C disabled
+14:59:02,539 WARNING kernel:ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 10
+14:59:02,539 INFO kernel:pci 0000:00:05.7: PCI INT D -> Link[LNKD] -> GSI 10 (level, high) -> IRQ 10
+14:59:02,539 INFO kernel:pci 0000:00:05.7: PCI INT D disabled
+14:59:02,539 INFO kernel:Trying to unpack rootfs image as initramfs...
+14:59:02,539 INFO kernel:Freeing initrd memory: 40614k freed
+14:59:02,539 INFO kernel:sha256_ssse3: Using AVX optimized SHA-256 implementation
+14:59:02,539 INFO kernel:futex hash table entries: 256 (order: 2, 16384 bytes)
+14:59:02,539 INFO kernel:audit: initializing netlink socket (disabled)
+14:59:02,539 NOTICE kernel:type=2000 audit(1491490741.960:1): initialized
+14:59:02,539 INFO kernel:HugeTLB registered 2 MB page size, pre-allocated 0 pages
+14:59:02,539 NOTICE kernel:VFS: Disk quotas dquot_6.5.2
+14:59:02,539 WARNING kernel:Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+14:59:02,539 INFO kernel:msgmni has been set to 1985
+14:59:02,539 DEBUG kernel:SELinux:  Registering netfilter hooks
+14:59:02,539 WARNING kernel:ksign: Installing public key data
+14:59:02,539 WARNING kernel:Loading keyring
+14:59:02,539 WARNING kernel:- Added public key 1A01485A64DD991D
+14:59:02,539 WARNING kernel:- User ID: CentOS (Kernel Module GPG key)
+14:59:02,539 INFO kernel:Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+14:59:02,539 INFO kernel:io scheduler noop registered
+14:59:02,539 INFO kernel:io scheduler anticipatory registered
+14:59:02,539 INFO kernel:io scheduler deadline registered
+14:59:02,539 INFO kernel:io scheduler cfq registered (default)
+14:59:02,539 INFO kernel:pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+14:59:02,539 INFO kernel:pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+14:59:02,539 INFO kernel:acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+14:59:02,539 INFO kernel:acpiphp: Slot [2] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [3] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [4] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [6] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [7] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [8] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [9] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [10] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [11] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [12] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [13] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [14] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [15] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [16] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [17] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [18] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [19] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [20] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [21] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [22] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [23] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [24] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [25] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [26] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [27] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [28] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [29] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [30] registered
+14:59:02,539 INFO kernel:acpiphp: Slot [31] registered
+14:59:02,539 INFO kernel:input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+14:59:02,539 INFO kernel:ACPI: Power Button [PWRF]
+14:59:02,539 DEBUG kernel:ACPI: acpi_idle registered with cpuidle
+14:59:02,539 WARNING kernel:[Firmware Bug]: No valid trip found
+14:59:02,539 INFO kernel:GHES: HEST is not enabled!
+14:59:02,539 INFO kernel:Non-volatile memory driver v1.3
+14:59:02,539 INFO kernel:Linux agpgart interface v0.103
+14:59:02,539 INFO kernel:crash memory driver: version 1.1
+14:59:02,539 INFO kernel:Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+14:59:02,539 INFO kernel:serial8250: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+14:59:02,539 INFO kernel:00:05: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+14:59:02,539 INFO kernel:brd: module loaded
+14:59:02,539 INFO kernel:loop: module loaded
+14:59:02,539 INFO kernel:input: Macintosh mouse button emulation as /devices/virtual/input/input1
+14:59:02,539 INFO kernel:Fixed MDIO Bus: probed
+14:59:02,539 INFO kernel:ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+14:59:02,539 INFO kernel:ehci_hcd 0000:00:05.7: PCI INT D -> Link[LNKD] -> GSI 10 (level, high) -> IRQ 10
+14:59:02,539 DEBUG kernel:ehci_hcd 0000:00:05.7: setting latency timer to 64
+14:59:02,539 INFO kernel:ehci_hcd 0000:00:05.7: EHCI Host Controller
+14:59:02,539 INFO kernel:ehci_hcd 0000:00:05.7: new USB bus registered, assigned bus number 1
+14:59:02,539 INFO kernel:ehci_hcd 0000:00:05.7: irq 10, io mem 0xfebc2000
+14:59:02,539 INFO kernel:ehci_hcd 0000:00:05.7: USB 2.0 started, EHCI 1.00
+14:59:02,539 INFO kernel:usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+14:59:02,539 INFO kernel:usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+14:59:02,539 INFO kernel:usb usb1: Product: EHCI Host Controller
+14:59:02,539 INFO kernel:usb usb1: Manufacturer: Linux 2.6.32-696.el6.x86_64 ehci_hcd
+14:59:02,539 INFO kernel:usb usb1: SerialNumber: 0000:00:05.7
+14:59:02,539 INFO kernel:usb usb1: configuration #1 chosen from 1 choice
+14:59:02,539 INFO kernel:hub 1-0:1.0: USB hub found
+14:59:02,539 INFO kernel:hub 1-0:1.0: 6 ports detected
+14:59:02,539 INFO kernel:ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+14:59:02,539 INFO kernel:uhci_hcd: USB Universal Host Controller Interface driver
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.0: PCI INT A -> Link[LNKA] -> GSI 10 (level, high) -> IRQ 10
+14:59:02,539 DEBUG kernel:uhci_hcd 0000:00:05.0: setting latency timer to 64
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.0: UHCI Host Controller
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.0: new USB bus registered, assigned bus number 2
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.0: irq 10, io base 0x0000c120
+14:59:02,539 INFO kernel:usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+14:59:02,539 INFO kernel:usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+14:59:02,539 INFO kernel:usb usb2: Product: UHCI Host Controller
+14:59:02,539 INFO kernel:usb usb2: Manufacturer: Linux 2.6.32-696.el6.x86_64 uhci_hcd
+14:59:02,539 INFO kernel:usb usb2: SerialNumber: 0000:00:05.0
+14:59:02,539 INFO kernel:usb usb2: configuration #1 chosen from 1 choice
+14:59:02,539 INFO kernel:hub 2-0:1.0: USB hub found
+14:59:02,539 INFO kernel:hub 2-0:1.0: 2 ports detected
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.1: PCI INT B -> Link[LNKB] -> GSI 11 (level, high) -> IRQ 11
+14:59:02,539 DEBUG kernel:uhci_hcd 0000:00:05.1: setting latency timer to 64
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.1: UHCI Host Controller
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.1: new USB bus registered, assigned bus number 3
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.1: irq 11, io base 0x0000c140
+14:59:02,539 INFO kernel:usb usb3: New USB device found, idVendor=1d6b, idProduct=0001
+14:59:02,539 INFO kernel:usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+14:59:02,539 INFO kernel:usb usb3: Product: UHCI Host Controller
+14:59:02,539 INFO kernel:usb usb3: Manufacturer: Linux 2.6.32-696.el6.x86_64 uhci_hcd
+14:59:02,539 INFO kernel:usb usb3: SerialNumber: 0000:00:05.1
+14:59:02,539 INFO kernel:usb usb3: configuration #1 chosen from 1 choice
+14:59:02,539 INFO kernel:hub 3-0:1.0: USB hub found
+14:59:02,539 INFO kernel:hub 3-0:1.0: 2 ports detected
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.2: PCI INT C -> Link[LNKC] -> GSI 11 (level, high) -> IRQ 11
+14:59:02,539 DEBUG kernel:uhci_hcd 0000:00:05.2: setting latency timer to 64
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.2: UHCI Host Controller
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.2: new USB bus registered, assigned bus number 4
+14:59:02,539 INFO kernel:uhci_hcd 0000:00:05.2: irq 11, io base 0x0000c160
+14:59:02,539 INFO kernel:usb usb4: New USB device found, idVendor=1d6b, idProduct=0001
+14:59:02,539 INFO kernel:usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+14:59:02,539 INFO kernel:usb usb4: Product: UHCI Host Controller
+14:59:02,539 INFO kernel:usb usb4: Manufacturer: Linux 2.6.32-696.el6.x86_64 uhci_hcd
+14:59:02,539 INFO kernel:usb usb4: SerialNumber: 0000:00:05.2
+14:59:02,539 INFO kernel:usb usb4: configuration #1 chosen from 1 choice
+14:59:02,539 INFO kernel:hub 4-0:1.0: USB hub found
+14:59:02,539 INFO kernel:hub 4-0:1.0: 2 ports detected
+14:59:02,539 INFO kernel:PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+14:59:02,539 INFO kernel:serio: i8042 KBD port at 0x60,0x64 irq 1
+14:59:02,539 INFO kernel:serio: i8042 AUX port at 0x60,0x64 irq 12
+14:59:02,539 INFO kernel:mice: PS/2 mouse device common for all mice
+14:59:02,539 INFO kernel:input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+14:59:02,539 INFO kernel:rtc_cmos 00:01: RTC can wake from S4
+14:59:02,539 INFO kernel:rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+14:59:02,539 INFO kernel:rtc0: alarms up to one day, 114 bytes nvram
+14:59:02,539 INFO kernel:cpuidle: using governor ladder
+14:59:02,539 INFO kernel:cpuidle: using governor menu
+14:59:02,539 INFO kernel:EFI Variables Facility v0.08 2004-May-17
+14:59:02,539 INFO kernel:usbcore: registered new interface driver hiddev
+14:59:02,539 INFO kernel:usbcore: registered new interface driver usbhid
+14:59:02,539 INFO kernel:usbhid: v2.6:USB HID core driver
+14:59:02,539 INFO kernel:GRE over IPv4 demultiplexor driver
+14:59:02,539 INFO kernel:TCP cubic registered
+14:59:02,539 INFO kernel:Initializing XFRM netlink socket
+14:59:02,539 INFO kernel:NET: Registered protocol family 17
+14:59:02,539 WARNING kernel:registered taskstats version 1
+14:59:02,539 INFO kernel:rtc_cmos 00:01: setting system clock to 2017-04-06 14:59:02 UTC (1491490742)
+14:59:02,539 INFO kernel:Initalizing network drop monitor service
+14:59:02,539 INFO kernel:Freeing unused kernel memory: 1316k freed
+14:59:02,539 INFO kernel:Write protecting the kernel read-only data: 10240k
+14:59:02,539 INFO kernel:Freeing unused kernel memory: 656k freed
+14:59:02,539 INFO kernel:Freeing unused kernel memory: 1548k freed
+14:59:02,941 INFO kernel:Refined TSC clocksource calibration: 2400.153 MHz.
+14:59:03,110 INFO kernel:input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+14:59:04,576 INFO kernel:squashfs: version 4.0 (2009/01/31) Phillip Lougher
+14:59:04,596 INFO kernel:Loading iSCSI transport class v2.0-870.
+14:59:04,628 NOTICE kernel:iscsi: registered transport (tcp)
+14:59:04,650 INFO kernel:FDC 0 is a S82078B
+14:59:04,658 INFO kernel:BIOS EDD facility v0.16 2004-Jun-25, 1 devices found
+14:59:04,665 INFO kernel:input: PC Speaker as /devices/platform/pcspkr/input/input4
+14:59:04,680 INFO kernel:No iBFT detected.
+14:59:04,710 INFO kernel:NET: Registered protocol family 10
+14:59:04,710 INFO kernel:lo: Disabled Privacy Extensions
+14:59:04,744 ERR udevd-work: device node '/dev/rtc' already exists, link to '/dev/rtc0' will not overwrite it
+14:59:04,823 INFO kernel:virtio-pci 0000:00:04.0: PCI INT A -> Link[LNKD] -> GSI 10 (level, high) -> IRQ 10
+14:59:04,823 DEBUG kernel:virtio-pci 0000:00:04.0: setting latency timer to 64
+14:59:04,824 INFO kernel:virtio-pci 0000:00:06.0: PCI INT A -> Link[LNKB] -> GSI 11 (level, high) -> IRQ 11
+14:59:04,824 DEBUG kernel:virtio-pci 0000:00:06.0: setting latency timer to 64
+14:59:04,849 INFO kernel:8139cp: 10/100 PCI Ethernet driver v1.3 (Mar 22, 2004)
+14:59:04,849 INFO kernel:8139cp 0000:00:03.0: PCI INT A -> Link[LNKC] -> GSI 11 (level, high) -> IRQ 11
+14:59:04,850 INFO kernel:eth0: RTL-8139C+ at 0xffffc90000648000, 52:54:00:e1:2c:7d, IRQ 11
+14:59:04,850 DEBUG kernel:8139cp 0000:00:03.0: setting latency timer to 64
+14:59:04,859 INFO kernel:8139too Fast Ethernet driver 0.9.28
+14:59:04,871 DEBUG kernel:ata_piix 0000:00:01.1: version 2.13
+14:59:04,871 DEBUG kernel:ata_piix 0000:00:01.1: setting latency timer to 64
+14:59:04,875 INFO kernel:scsi0 : ata_piix
+14:59:04,875 INFO kernel:scsi1 : ata_piix
+14:59:04,875 INFO kernel:ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc1a0 irq 14
+14:59:04,875 INFO kernel:ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc1a8 irq 15
+14:59:05,028 DEBUG kernel:ata1.01: NODEV after polling detection
+14:59:05,028 INFO kernel:ata1.00: ATA-7: QEMU HARDDISK, 1.5.3, max UDMA/100
+14:59:05,028 INFO kernel:ata1.00: 6291456 sectors, multi 16: LBA48 
+14:59:05,029 INFO kernel:ata1.00: configured for MWDMA2
+14:59:05,029 NOTICE kernel:scsi 0:0:0:0: Direct-Access     ATA      QEMU HARDDISK    3    PQ: 0 ANSI: 5
+14:59:05,098 NOTICE kernel:sd 0:0:0:0: [sda] 6291456 512-byte logical blocks: (3.22 GB/3.00 GiB)
+14:59:05,098 NOTICE kernel:sd 0:0:0:0: [sda] Write Protect is off
+14:59:05,098 DEBUG kernel:sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+14:59:05,098 NOTICE kernel:sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+14:59:05,099 INFO kernel: sda: unknown partition table
+14:59:05,099 NOTICE kernel:sd 0:0:0:0: [sda] Attached SCSI disk
+14:59:05,123 NOTICE kernel:sd 0:0:0:0: Attached scsi generic sg0 type 0
+14:59:07,327 INFO kernel:pps_core: LinuxPPS API ver. 1 registered
+14:59:07,327 INFO kernel:pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+14:59:07,334 INFO kernel:PTP clock support registered
+14:59:07,377 ERR udevd-work: device node '/dev/rtc' already exists, link to '/dev/rtc0' will not overwrite it
+14:59:09,537 INFO NetworkManager: <info> NetworkManager (version 0.8.1-113.el6) is starting...
+14:59:09,538 INFO NetworkManager: <info> Read config file /etc/NetworkManager/NetworkManager.conf
+14:59:09,543 INFO NetworkManager: <info> trying to start the modem manager...
+14:59:09,546 INFO NetworkManager: <info> monitoring kernel firmware directory '/lib/firmware'.
+14:59:09,546 INFO NetworkManager: <info> Bonding/Bridging/VLAN support enabled
+14:59:09,551 NOTICE NetworkManager:    ifcfg-rh: Acquired D-Bus service com.redhat.ifcfgrh1
+14:59:09,551 INFO NetworkManager: <info> Loaded plugin ifcfg-rh: (c) 2007 - 2008 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+14:59:09,552 INFO NetworkManager: <info> Loaded plugin keyfile: (c) 2007 - 2008 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+14:59:09,552 INFO NetworkManager: <info> Loaded plugin ibft: (c) 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+14:59:09,552 NOTICE NetworkManager:    ifcfg-rh: parsing /etc/sysconfig/network-scripts/ifcfg-eth0 ... 
+14:59:09,553 NOTICE NetworkManager:    ifcfg-rh:     read connection 'System eth0'
+14:59:09,557 INFO NetworkManager: <debug> [1491490749.557169] [nm-sysconfig-settings.c:579] claim_connection(): failed to read connection timestamp for '57183b12-5073-4a55-a037-78561c898cc6': (4) Key file does not have group 'timestamps'
+14:59:09,557 WARNING NetworkManager: Can not read directory '/etc/NetworkManager/system-connections': Error opening directory '/etc/NetworkManager/system-connections': No such file or directory
+14:59:09,561 DEBUG NetworkManager:    ibft: failed to read iscsiadm records: iBFT: /sbin/iscsiadm exited with error 21.  Message: 'iscsiadm: Could not get list of targets from firmware. (err 21)  '
+14:59:09,562 INFO NetworkManager: <info> WiFi enabled by radio killswitch; enabled by state file
+14:59:09,562 INFO NetworkManager: <info> WWAN enabled by radio killswitch; enabled by state file
+14:59:09,563 INFO NetworkManager: <info> WiMAX enabled by radio killswitch; enabled by state file
+14:59:09,563 INFO NetworkManager: <info> Networking is enabled by state file
+14:59:09,641 INFO NetworkManager: <debug> [1491490749.640692] [nm-device-ethernet.c:1961] supports_ethtool_carrier_detect(): ethtool is supported
+14:59:09,641 INFO NetworkManager: <info> (eth0): carrier is OFF
+14:59:09,641 INFO NetworkManager: <debug> [1491490749.640813] [nm-device-ethernet.c:320] constructor(): (eth0): kernel ifindex 2
+14:59:09,641 INFO NetworkManager: <info> (eth0): new Ethernet device (driver: '8139cp' ifindex: 2)
+14:59:09,641 INFO NetworkManager: <info> (eth0): exported as /org/freedesktop/NetworkManager/Devices/0
+14:59:09,641 INFO NetworkManager: <info> (eth0): now managed
+14:59:09,641 INFO NetworkManager: <info> (eth0): device state change: unmanaged -> unavailable (reason 'managed') [1 2 2]
+14:59:09,641 INFO NetworkManager: <info> (eth0): bringing up device.
+14:59:09,641 INFO kernel:802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+14:59:09,641 INFO kernel:All bugs added by David S. Miller <davem@redhat.com>
+14:59:09,641 INFO kernel:eth0: link up, 100Mbps, full-duplex, lpa 0x05E1
+14:59:09,642 INFO NetworkManager: <info> (eth0): carrier now ON (device state 2)
+14:59:09,642 INFO NetworkManager: <debug> [1491490749.642159] [nm-device.c:4749] nm_device_queue_state(): (eth0): queued state change to disconnected due to carrier-chagned (id 33)
+14:59:09,642 INFO NetworkManager: <info> (eth0): preparing device.
+14:59:09,642 INFO NetworkManager: <info> (eth0): deactivating device (reason 'managed') [2]
+14:59:09,642 INFO NetworkManager: <debug> [1491490749.642361] [nm-device.c:3219] queued_state_clear(): (eth0): clearing queued state transition (id 33)
+14:59:09,642 INFO NetworkManager: <debug> [1491490749.642417] [NetworkManagerUtils.c:737] nm_utils_do_sysctl(): sysctl: setting '/proc/sys/net/ipv6/conf/eth0/accept_ra' to '0'
+14:59:09,642 INFO NetworkManager: <debug> [1491490749.642477] [nm-device-ethernet.c:454] _set_hw_addr(): (eth0): no MAC address change needed
+14:59:09,642 INFO NetworkManager: <debug> [1491490749.642526] [nm-system.c:1427] flush_routes(): (eth0): flushing routes ifindex 2 family INET (2)
+14:59:09,642 INFO NetworkManager: <debug> [1491490749.642623] [nm-system.c:1342] dump_route():   route idx 2 family INET6 (10) addr fe80::/64
+14:59:09,642 INFO NetworkManager: <debug> [1491490749.642671] [nm-system.c:1342] dump_route():   route idx 1 family INET6 (10) addr 93cc:cc03:4100::a00:0/0
+14:59:09,642 INFO NetworkManager: <debug> [1491490749.642716] [nm-system.c:1342] dump_route():   route idx 2 family INET6 (10) addr ff00::/8
+14:59:09,642 INFO NetworkManager: <debug> [1491490749.642759] [nm-system.c:1342] dump_route():   route idx 1 family INET6 (10) addr a200:3:101::100:0/0
+14:59:09,642 INFO NetworkManager: <debug> [1491490749.642865] [nm-system.c:228] sync_addresses(): (eth0): syncing addresses (family 2)
+14:59:09,642 INFO NetworkManager: <debug> [1491490749.642965] [nm-manager.c:1808] system_create_virtual_devices(): creating virtual devices...
+14:59:09,643 INFO NetworkManager: <debug> [1491490749.643244] [nm-device.c:4644] nm_device_state_changed(): (eth0): device is available, will transition to DISCONNECTED
+14:59:09,643 INFO NetworkManager: <debug> [1491490749.643301] [nm-device.c:4749] nm_device_queue_state(): (eth0): queued state change to disconnected due to none (id 34)
+14:59:09,643 INFO NetworkManager: <debug> [1491490749.643420] [nm-manager.c:1808] system_create_virtual_devices(): creating virtual devices...
+14:59:09,643 INFO NetworkManager: <debug> [1491490749.643499] [nm-udev-manager.c:376] net_add(): ignoring interface with type 772
+14:59:09,643 INFO NetworkManager: <debug> [1491490749.643802] [nm-udev-manager.c:376] net_add(): ignoring interface with type 772
+14:59:09,643 INFO NetworkManager: <debug> [1491490749.643857] [nm-manager.c:1808] system_create_virtual_devices(): creating virtual devices...
+14:59:09,644 INFO NetworkManager: <debug> [1491490749.644209] [nm-netlink-monitor.c:122] link_msg_handler(): netlink link message: iface idx 2 flags 0x1002
+14:59:09,644 INFO NetworkManager: <info> (eth0): carrier now OFF (device state 2)
+14:59:09,644 INFO NetworkManager: <debug> [1491490749.644482] [nm-netlink-monitor.c:122] link_msg_handler(): netlink link message: iface idx 2 flags 0x11043
+14:59:09,644 INFO NetworkManager: <info> (eth0): carrier now ON (device state 2)
+14:59:09,644 INFO NetworkManager: <debug> [1491490749.644683] [nm-netlink-monitor.c:122] link_msg_handler(): netlink link message: iface idx 2 flags 0x11043
+14:59:09,644 INFO NetworkManager: <debug> [1491490749.644794] [nm-netlink-monitor.c:122] link_msg_handler(): netlink link message: iface idx 1 flags 0x8
+14:59:09,644 INFO NetworkManager: <debug> [1491490749.644923] [nm-netlink-monitor.c:122] link_msg_handler(): netlink link message: iface idx 1 flags 0x10049
+14:59:09,645 INFO NetworkManager: <debug> [1491490749.645226] [nm-netlink-monitor.c:122] link_msg_handler(): netlink link message: iface idx 1 flags 0x10049
+14:59:09,645 INFO NetworkManager: <debug> [1491490749.645284] [nm-netlink-monitor.c:122] link_msg_handler(): netlink link message: iface idx 2 flags 0x11043
+14:59:09,645 INFO NetworkManager: <info> Trying to start the supplicant...
+14:59:09,646 INFO NetworkManager: <debug> [1491490749.646071] [nm-device.c:4702] queued_set_state(): (eth0): running queued state change to disconnected (id 34)
+14:59:09,646 INFO NetworkManager: <info> (eth0): device state change: unavailable -> disconnected (reason 'none') [2 3 0]
+14:59:09,646 INFO NetworkManager: <debug> [1491490749.646217] [nm-manager.c:1808] system_create_virtual_devices(): creating virtual devices...
+14:59:09,654 INFO NetworkManager: <info> wpa_supplicant started
+14:59:10,531 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-network: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,531 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.sleep-wake: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,531 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-wifi: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,531 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-wwan: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,531 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.use-user-connections: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,531 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.network-control: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,531 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.network-manager-settings.system.wifi.share.open: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,531 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.network-manager-settings.system.wifi.share.protected: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,531 INFO NetworkManager: <debug> [1491490750.531610] [nm-manager.c:4798] get_permissions_done_cb(): Permissions request failed: Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,542 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-network: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,542 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.sleep-wake: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,542 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-wifi: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,542 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-wwan: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,542 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.use-user-connections: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,542 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.network-control: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,542 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.network-manager-settings.system.wifi.share.open: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,542 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.network-manager-settings.system.wifi.share.protected: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,542 INFO NetworkManager: <debug> [1491490750.542542] [nm-manager.c:4798] get_permissions_done_cb(): Permissions request failed: Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,579 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-network: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,579 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.sleep-wake: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,579 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-wifi: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,579 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-wwan: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,579 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.use-user-connections: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,579 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.network-control: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,579 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.network-manager-settings.system.wifi.share.open: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,579 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.network-manager-settings.system.wifi.share.protected: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:10,579 INFO NetworkManager: <debug> [1491490750.579079] [nm-manager.c:4798] get_permissions_done_cb(): Permissions request failed: Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:11,567 NOTICE NetworkManager:    ifcfg-rh: updating /etc/sysconfig/network-scripts/ifcfg-eth0
+14:59:11,571 INFO NetworkManager: <info> Auto-activating connection 'System eth0'.
+14:59:11,571 INFO NetworkManager: <info> Activation (eth0) starting connection 'System eth0'
+14:59:11,571 INFO NetworkManager: <info> (eth0): device state change: disconnected -> prepare (reason 'none') [3 4 0]
+14:59:11,572 INFO NetworkManager: <debug> [1491490751.572208] [nm-manager.c:1808] system_create_virtual_devices(): creating virtual devices...
+14:59:11,572 INFO NetworkManager: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) scheduled...
+14:59:11,572 INFO NetworkManager: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) started...
+14:59:11,573 INFO NetworkManager: <info> Activation (eth0) Stage 2 of 5 (Device Configure) scheduled...
+14:59:11,573 INFO NetworkManager: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) complete.
+14:59:11,573 INFO NetworkManager: <info> Activation (eth0) Stage 2 of 5 (Device Configure) starting...
+14:59:11,573 INFO NetworkManager: <info> (eth0): device state change: prepare -> config (reason 'none') [4 5 0]
+14:59:11,573 INFO NetworkManager: <debug> [1491490751.573393] [nm-manager.c:1808] system_create_virtual_devices(): creating virtual devices...
+14:59:11,573 INFO NetworkManager: <info> Activation (eth0) Stage 2 of 5 (Device Configure) successful.
+14:59:11,573 INFO NetworkManager: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) scheduled.
+14:59:11,573 INFO NetworkManager: <info> Activation (eth0) Stage 2 of 5 (Device Configure) complete.
+14:59:11,574 INFO NetworkManager: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) started...
+14:59:11,574 INFO NetworkManager: <info> (eth0): device state change: config -> ip-config (reason 'none') [5 7 0]
+14:59:11,574 INFO NetworkManager: <debug> [1491490751.574345] [nm-manager.c:1808] system_create_virtual_devices(): creating virtual devices...
+14:59:11,574 INFO NetworkManager: <info> Activation (eth0) Beginning DHCPv4 transaction
+14:59:11,574 INFO NetworkManager: <debug> [1491490751.574975] [nm-dhcp-dhclient.c:741] dhclient_start(): running: /sbin/dhclient -d -4 -sf /usr/libexec/nm-dhcp-client.action -pf /var/run/dhclient-eth0.pid -lf /var/lib/dhclient/dhclient-7967a7f9-0c3d-497b-bd32-49128146ff16-eth0.lease -cf /var/run/nm-dhclient-eth0.conf eth0
+14:59:11,576 INFO NetworkManager: <info> dhclient started with pid 506
+14:59:11,576 INFO NetworkManager: <info> Activation (eth0) DHCPv4 will time out in 45 seconds
+14:59:11,576 INFO NetworkManager: <debug> [1491490751.575910] [NetworkManagerUtils.c:737] nm_utils_do_sysctl(): sysctl: setting '/proc/sys/net/ipv6/conf/eth0/accept_ra' to '1'
+14:59:11,576 INFO NetworkManager: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) complete.
+14:59:11,577 INFO dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+14:59:11,577 INFO dhclient: Copyright 2004-2010 Internet Systems Consortium.
+14:59:11,577 INFO dhclient: All rights reserved.
+14:59:11,577 INFO dhclient: For info, please visit https://www.isc.org/software/dhcp/
+14:59:11,577 INFO dhclient: 
+14:59:11,580 INFO NetworkManager: <info> (eth0): DHCPv4 state changed nbi -> preinit
+14:59:11,580 INFO NetworkManager: <debug> [1491490751.580836] [nm-device.c:1772] dhcp_state_changed(): (eth0): new DHCPv4 client state 7
+14:59:11,581 INFO dhclient: Listening on LPF/eth0/52:54:00:e1:2c:7d
+14:59:11,581 INFO dhclient: Sending on   LPF/eth0/52:54:00:e1:2c:7d
+14:59:11,581 INFO dhclient: Sending on   Socket/fallback
+14:59:12,000 INFO dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6 (xid=0x1167facf)
+14:59:14,505 INFO dhclient: DHCPOFFER from 192.168.122.1
+14:59:14,505 INFO dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x1167facf)
+14:59:14,505 INFO dhclient: DHCPACK from 192.168.122.1 (xid=0x1167facf)
+14:59:14,509 INFO NetworkManager: <info> (eth0): DHCPv4 state changed preinit -> bound
+14:59:14,509 INFO NetworkManager: <debug> [1491490754.508816] [nm-device.c:1772] dhcp_state_changed(): (eth0): new DHCPv4 client state 7
+14:59:14,509 INFO NetworkManager: <info> Activation (eth0) Stage 4 of 5 (IP4 Configure Get) scheduled...
+14:59:14,509 INFO NetworkManager: <info> Activation (eth0) Stage 4 of 5 (IP4 Configure Get) started...
+14:59:14,509 INFO NetworkManager: <info>   address 192.168.122.176
+14:59:14,509 INFO NetworkManager: <info>   prefix 24 (255.255.255.0)
+14:59:14,509 INFO NetworkManager: <info>   gateway 192.168.122.1
+14:59:14,509 INFO NetworkManager: <info>   nameserver '192.168.122.1'
+14:59:14,509 INFO NetworkManager: <info> Activation (eth0) Stage 5 of 5 (IP Configure Commit) scheduled...
+14:59:14,509 INFO NetworkManager: <info> Activation (eth0) Stage 4 of 5 (IP4 Configure Get) complete.
+14:59:14,509 INFO NetworkManager: <info> Activation (eth0) Stage 5 of 5 (IP Configure Commit) started...
+14:59:14,510 INFO NetworkManager: <debug> [1491490754.509871] [nm-system.c:228] sync_addresses(): (eth0): syncing addresses (family 2)
+14:59:14,510 INFO NetworkManager: <debug> [1491490754.510448] [nm-system.c:317] sync_addresses(): (eth0): adding address '192.168.122.176/0'
+14:59:14,511 INFO dhclient: bound to 192.168.122.176 -- renewal in 1461 seconds.
+14:59:15,511 INFO NetworkManager: <info> (eth0): device state change: ip-config -> activated (reason 'none') [7 8 0]
+14:59:15,511 INFO NetworkManager: <debug> [1491490755.511849] [nm-manager.c:1808] system_create_virtual_devices(): creating virtual devices...
+14:59:15,512 INFO NetworkManager: <info> Policy set 'System eth0' (eth0) as default for IPv4 routing and DNS.
+14:59:15,512 INFO NetworkManager: <debug> [1491490755.512563] [nm-policy-hostname.c:168] hostname4_thread_new(): (0x1fb5e20) started IPv4 reverse-lookup thread for address '0.0.0.0'
+14:59:15,512 INFO NetworkManager: <info> Activation (eth0) successful, device activated.
+14:59:15,514 INFO NetworkManager: <info> Activation (eth0) Stage 5 of 5 (IP Configure Commit) complete.
+14:59:15,514 INFO NetworkManager: <debug> [1491490755.514911] [nm-policy-hostname.c:96] hostname_thread_worker(): (0x1fb5e20) starting address reverse-lookup
+14:59:15,517 INFO NetworkManager: <debug> [1491490755.517897] [nm-policy-hostname.c:113] hostname_thread_worker(): (0x1fb5e20) address reverse-lookup failed: (-2) Name or service not known
+14:59:15,517 INFO NetworkManager: <debug> [1491490755.517916] [nm-policy-hostname.c:120] hostname_thread_worker(): (0x1fb5e20) scheduling address reverse-lookup result handler
+14:59:15,518 INFO NetworkManager: <debug> [1491490755.518005] [nm-policy-hostname.c:85] hostname_thread_run_cb(): (0x1fb5e20) calling address reverse-lookup result handler
+14:59:15,518 INFO NetworkManager: <debug> [1491490755.518024] [nm-policy-hostname.c:130] hostname_thread_free(): (0x1fb5e20) freeing reverse-lookup thread
+14:59:15,616 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-network: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:15,616 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.sleep-wake: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:15,616 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-wifi: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:15,616 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.enable-disable-wwan: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:15,616 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.use-user-connections: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:15,616 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.NetworkManager.network-control: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:15,616 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.network-manager-settings.system.wifi.share.open: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:15,616 WARNING NetworkManager: <warn> error requesting auth for org.freedesktop.network-manager-settings.system.wifi.share.protected: (26) Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:15,616 INFO NetworkManager: <debug> [1491490755.616239] [nm-manager.c:4798] get_permissions_done_cb(): Permissions request failed: Remote Exception invoking org.freedesktop.PolicyKit1.Authority.CheckAuthorization() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.DBus.Error.Spawn.ExecFailed: Cannot launch daemon, file not found or permissions invalid
+14:59:15,878 WARNING loader: error -2147483630 reading header: cpio: read failed - Success
+14:59:44,151 NOTICE dbus-daemon: [system] Reloaded configuration
+14:59:44,152 NOTICE dbus-daemon: [system] Reloaded configuration
+14:59:44,251 DEBUG kernel:SELinux: 2048 avtab hash slots, 309305 rules.
+14:59:44,319 DEBUG kernel:SELinux: 2048 avtab hash slots, 309305 rules.
+14:59:44,589 DEBUG kernel:SELinux:  9 users, 12 roles, 4215 types, 237 bools, 1 sens, 1024 cats
+14:59:44,589 DEBUG kernel:SELinux:  81 classes, 309305 rules
+14:59:44,593 DEBUG kernel:SELinux:  Completing initialization.
+14:59:44,593 DEBUG kernel:SELinux:  Setting up existing superblocks.
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev loop0, type squashfs), not configured for labeling
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev usbfs, type usbfs), uses genfs_contexts
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev selinuxfs, type selinuxfs), uses genfs_contexts
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev mqueue, type mqueue), uses transition SIDs
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev hugetlbfs, type hugetlbfs), uses transition SIDs
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev devpts, type devpts), uses transition SIDs
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev inotifyfs, type inotifyfs), uses genfs_contexts
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev anon_inodefs, type anon_inodefs), uses genfs_contexts
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev pipefs, type pipefs), uses task SIDs
+14:59:44,593 DEBUG kernel:SELinux: initialized (dev debugfs, type debugfs), uses genfs_contexts
+14:59:44,594 DEBUG kernel:SELinux: initialized (dev sockfs, type sockfs), uses task SIDs
+14:59:44,594 DEBUG kernel:SELinux: initialized (dev devtmpfs, type devtmpfs), uses transition SIDs
+14:59:44,594 DEBUG kernel:SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+14:59:44,594 DEBUG kernel:SELinux: initialized (dev proc, type proc), uses genfs_contexts
+14:59:44,594 DEBUG kernel:SELinux: initialized (dev bdev, type bdev), uses genfs_contexts
+14:59:44,594 DEBUG kernel:SELinux: initialized (dev rootfs, type rootfs), uses genfs_contexts
+14:59:44,595 DEBUG kernel:SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+14:59:44,610 NOTICE kernel:type=1403 audit(1491490784.602:2): policy loaded auid=4294967295 ses=4294967295
+14:59:44,631 INFO kernel:md: raid0 personality registered for level 0
+14:59:44,643 INFO kernel:md: raid1 personality registered for level 1
+14:59:44,650 INFO kernel:async_tx: api initialized (async)
+14:59:44,669 INFO kernel:xor: automatically using best checksumming function: avx
+14:59:44,677 INFO kernel:   avx       : 18768.000 MB/sec
+14:59:44,677 INFO kernel:xor: using function: avx (18768.000 MB/sec)
+14:59:44,732 WARNING kernel:raid6: sse2x1    8769 MB/s
+14:59:44,732 WARNING kernel:raid6: sse2x2   10902 MB/s
+14:59:44,732 WARNING kernel:raid6: sse2x4   12468 MB/s
+14:59:44,732 WARNING kernel:raid6: using algorithm sse2x4 (12468 MB/s)
+14:59:44,732 WARNING kernel:raid6: using ssse3x2 recovery algorithm
+14:59:44,755 INFO kernel:md: raid6 personality registered for level 6
+14:59:44,755 INFO kernel:md: raid5 personality registered for level 5
+14:59:44,755 INFO kernel:md: raid4 personality registered for level 4
+14:59:44,765 INFO kernel:md: raid10 personality registered for level 10
+14:59:44,772 INFO kernel:md: linear personality registered for level -1
+14:59:44,786 INFO kernel:device-mapper: uevent: version 1.0.3
+14:59:44,786 INFO kernel:device-mapper: ioctl: 4.33.1-ioctl (2015-8-18) initialised: dm-devel@redhat.com
+14:59:44,871 INFO kernel:device-mapper: multipath: version 1.6.0 loaded
+14:59:44,877 INFO kernel:device-mapper: multipath round-robin: version 1.0.0 loaded
+14:59:45,846 INFO NetworkManager: <debug> [1491490785.842752] [nm-udev-manager.c:494] handle_uevent(): UDEV event: action 'add' subsys 'net' device 'eth0'
+14:59:45,929 INFO NetworkManager: <debug> [1491490785.929625] [nm-udev-manager.c:494] handle_uevent(): UDEV event: action 'add' subsys 'net' device 'lo'
+14:59:45,929 INFO NetworkManager: <debug> [1491490785.929651] [nm-udev-manager.c:376] net_add(): ignoring interface with type 772
+14:59:45,966 INFO NetworkManager: <debug> [1491490785.965946] [nm-udev-manager.c:494] handle_uevent(): UDEV event: action 'add' subsys 'net' device 'lo'
+14:59:45,966 INFO NetworkManager: <debug> [1491490785.965973] [nm-udev-manager.c:376] net_add(): ignoring interface with type 772
+14:59:45,973 INFO NetworkManager: <debug> [1491490785.973275] [nm-udev-manager.c:494] handle_uevent(): UDEV event: action 'add' subsys 'net' device 'eth0'
+14:59:48,172 INFO kernel: sda:
+14:59:48,271 INFO kernel: sda: sda1
+14:59:50,104 INFO kernel:EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: 
+14:59:50,104 DEBUG kernel:SELinux: initialized (dev sda1, type ext4), uses xattr
+14:59:50,123 DEBUG kernel:SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+15:00:03,948 NOTICE NetworkManager:    ifcfg-rh: updating /etc/sysconfig/network-scripts/ifcfg-eth0

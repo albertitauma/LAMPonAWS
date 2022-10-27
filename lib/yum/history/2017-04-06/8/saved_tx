@@ -1,0 +1,50 @@
+209:0f071dedbff25df675e1308b0afb7a4ea7320863
+32
+3
+base:6713:1530286202
+extras:47:1594931194
+updates:1193:1606863605
+5
+mbr: perl-DBD-MySQL,x86_64,0,4.013,3.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mysql-server,x86_64,0,5.1.73,8.el6_8@a:dependson
+  depends_on: mysql-server,x86_64,0,5.1.73,8.el6_8@a
+mbr: mysql-libs,x86_64,0,5.1.73,8.el6_8 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mysql-server,x86_64,0,5.1.73,8.el6_8@a:dependson mysql,x86_64,0,5.1.73,8.el6_8@a:dependson mysql,x86_64,0,5.1.73,8.el6_8@a:dependson mysql,x86_64,0,5.1.73,8.el6_8@a:dependson mysql,x86_64,0,5.1.73,8.el6_8@a:dependson mysql,x86_64,0,5.1.73,8.el6_8@a:dependson perl-DBD-MySQL,x86_64,0,4.013,3.el6@a:dependson perl-DBD-MySQL,x86_64,0,4.013,3.el6@a:dependson
+  depends_on: mysql-server,x86_64,0,5.1.73,8.el6_8@a
+mbr: mysql-server,x86_64,0,5.1.73,8.el6_8 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: mysql,x86_64,0,5.1.73,8.el6_8 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mysql-server,x86_64,0,5.1.73,8.el6_8@a:dependson
+  depends_on: mysql-server,x86_64,0,5.1.73,8.el6_8@a
+mbr: perl-DBI,x86_64,0,1.609,4.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mysql-server,x86_64,0,5.1.73,8.el6_8@a:dependson perl-DBD-MySQL,x86_64,0,4.013,3.el6@a:dependson perl-DBD-MySQL,x86_64,0,4.013,3.el6@a:dependson
+  depends_on: mysql-server,x86_64,0,5.1.73,8.el6_8@a

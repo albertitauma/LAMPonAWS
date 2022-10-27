@@ -1,0 +1,23 @@
+223:10303818d37408661e232750931abbd85f1876df
+32
+3
+base:6713:1530286202
+extras:47:1594931194
+updates:1193:1606863605
+2
+mbr: php-gd,x86_64,0,5.3.3,50.el6_10 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: libXpm,x86_64,0,3.5.10,2.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-gd,x86_64,0,5.3.3,50.el6_10@a:dependson
+  depends_on: php-gd,x86_64,0,5.3.3,50.el6_10@a

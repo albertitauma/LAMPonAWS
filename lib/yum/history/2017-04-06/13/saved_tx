@@ -1,0 +1,42 @@
+226:f6e0a5b7a6b4e9141268822228c66bb53a8475dd
+32
+3
+base:6713:1530286202
+extras:47:1594931194
+updates:1193:1606863605
+4
+mbr: rsync,x86_64,0,3.0.6,12.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: git,x86_64,0,1.7.1,10.el6_10@a:dependson
+  depends_on: git,x86_64,0,1.7.1,10.el6_10@a
+mbr: perl-Git,noarch,0,1.7.1,10.el6_10 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: git,x86_64,0,1.7.1,10.el6_10@a:dependson
+  depends_on: git,x86_64,0,1.7.1,10.el6_10@a
+mbr: perl-Error,noarch,1,0.17015,4.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: git,x86_64,0,1.7.1,10.el6_10@a:dependson perl-Git,noarch,0,1.7.1,10.el6_10@a:dependson
+  depends_on: git,x86_64,0,1.7.1,10.el6_10@a
+mbr: git,x86_64,0,1.7.1,10.el6_10 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: perl-Git,noarch,0,1.7.1,10.el6_10@a:dependson

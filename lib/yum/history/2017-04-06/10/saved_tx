@@ -1,0 +1,41 @@
+219:0be805e2a5bec57ade33d90b183a508a4fd7fd5f
+32
+3
+base:6713:1530286202
+extras:47:1594931194
+updates:1193:1606863605
+4
+mbr: vim-common,x86_64,2,7.4.629,5.el6_10.2 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: vim-enhanced,x86_64,2,7.4.629,5.el6_10.2@a:dependson
+  depends_on: vim-enhanced,x86_64,2,7.4.629,5.el6_10.2@a
+mbr: vim-filesystem,x86_64,2,7.4.629,5.el6_10.2 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: vim-common,x86_64,2,7.4.629,5.el6_10.2@a:dependson
+  depends_on: vim-common,x86_64,2,7.4.629,5.el6_10.2@a
+mbr: gpm-libs,x86_64,0,1.20.6,12.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: vim-enhanced,x86_64,2,7.4.629,5.el6_10.2@a:dependson
+  depends_on: vim-enhanced,x86_64,2,7.4.629,5.el6_10.2@a
+mbr: vim-enhanced,x86_64,2,7.4.629,5.el6_10.2 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,195 @@
+[2017-04-06 14:59:50,406] INFO_2  : Loaded plugins: blacklist, fastestmirror, whiteout
+[2017-04-06 14:59:50,406] INFO_2  : No plugin match for: pidplugin
+[2017-04-06 14:59:50,408] DEBUG   : Config time: 0.095
+[2017-04-06 14:59:57,623] DEBUG   : repo time: 7.088
+[2017-04-06 14:59:57,648] INFO_2  : Determining fastest mirrors
+[2017-04-06 14:59:57,759] DEBUG   : repo time: 0.122
+[2017-04-06 14:59:57,775] DEBUG   : Setting up Package Sacks
+[2017-04-06 14:59:57,917] DEBUG   : rpmdb time: 0.000
+[2017-04-06 14:59:58,003] DEBUG   : pkgsack time: 0.227
+[2017-04-06 14:59:58,021] DEBUG   : Setting up Package Sacks
+[2017-04-06 14:59:58,268] DEBUG   : pkgsack time: 0.240
+[2017-04-06 14:59:58,967] DEBUG   : group time: 0.691
+[2017-04-06 14:59:59,125] DEBUG   : group time: 0.156
+[2017-04-06 14:59:59,266] DEBUG   : Obs Init time: 0.108
+[2017-04-06 15:00:00,824] DEBUG   : Building updates object
+[2017-04-06 15:00:00,870] DEBUG   : up:simple updates time: 0.029
+[2017-04-06 15:00:00,872] DEBUG   : up:obs time: 0.002
+[2017-04-06 15:00:00,872] DEBUG   : up:condense time: 0.000
+[2017-04-06 15:00:00,872] DEBUG   : updates time: 0.048
+[2017-04-06 15:00:00,876] DEBUG   : TSINFO: Marking glibc-2.12-1.209.el6.x86_64 as install for bash-4.1.2-48.el6.x86_64
+[2017-04-06 15:00:00,881] DEBUG   : TSINFO: Marking ncurses-libs-5.7-4.20090207.el6.x86_64 as install for bash-4.1.2-48.el6.x86_64
+[2017-04-06 15:00:00,881] DEBUG   : Quick matched glibc-2.12-1.209.el6.x86_64 to require for libc.so.6(GLIBC_2.4)(64bit)
+[2017-04-06 15:00:00,892] DEBUG   : TSINFO: Marking 32:bind-libs-9.8.2-0.62.rc1.el6.x86_64 as install for 32:bind-utils-9.8.2-0.62.rc1.el6.x86_64
+[2017-04-06 15:00:00,895] DEBUG   : TSINFO: Marking krb5-libs-1.10.3-65.el6.x86_64 as install for 32:bind-utils-9.8.2-0.62.rc1.el6.x86_64
+[2017-04-06 15:00:00,897] DEBUG   : TSINFO: Marking libidn-1.18-2.el6.x86_64 as install for 32:bind-utils-9.8.2-0.62.rc1.el6.x86_64
+[2017-04-06 15:00:00,899] DEBUG   : TSINFO: Marking zlib-1.2.3-29.el6.x86_64 as install for 32:bind-utils-9.8.2-0.62.rc1.el6.x86_64
+[2017-04-06 15:00:00,902] DEBUG   : TSINFO: Marking libxml2-2.7.6-21.el6_8.1.x86_64 as install for 32:bind-utils-9.8.2-0.62.rc1.el6.x86_64
+[2017-04-06 15:00:00,904] DEBUG   : Quick matched 32:bind-libs-9.8.2-0.62.rc1.el6.x86_64 to require for libisccc.so.80()(64bit)
+[2017-04-06 15:00:00,904] DEBUG   : Quick matched 32:bind-libs-9.8.2-0.62.rc1.el6.x86_64 to require for libisc.so.83()(64bit)
+[2017-04-06 15:00:00,908] DEBUG   : TSINFO: Marking openssl-1.0.1e-57.el6.x86_64 as install for 32:bind-utils-9.8.2-0.62.rc1.el6.x86_64
+[2017-04-06 15:00:00,910] DEBUG   : TSINFO: Marking libcap-2.16-5.5.el6.x86_64 as install for 32:bind-utils-9.8.2-0.62.rc1.el6.x86_64
+[2017-04-06 15:00:00,919] DEBUG   : TSINFO: Marking libss-1.41.12-23.el6.x86_64 as install for e2fsprogs-1.41.12-23.el6.x86_64
+[2017-04-06 15:00:00,923] DEBUG   : TSINFO: Marking libcom_err-1.41.12-23.el6.x86_64 as install for e2fsprogs-1.41.12-23.el6.x86_64
+[2017-04-06 15:00:00,927] DEBUG   : TSINFO: Marking e2fsprogs-libs-1.41.12-23.el6.x86_64 as install for e2fsprogs-1.41.12-23.el6.x86_64
+[2017-04-06 15:00:00,930] DEBUG   : TSINFO: Marking libuuid-2.17.2-12.28.el6.x86_64 as install for e2fsprogs-1.41.12-23.el6.x86_64
+[2017-04-06 15:00:00,932] DEBUG   : TSINFO: Marking libblkid-2.17.2-12.28.el6.x86_64 as install for e2fsprogs-1.41.12-23.el6.x86_64
+[2017-04-06 15:00:00,932] DEBUG   : Quick matched libblkid-2.17.2-12.28.el6.x86_64 to require for libblkid.so.1(BLKID_2.15)(64bit)
+[2017-04-06 15:00:00,932] DEBUG   : Quick matched libblkid-2.17.2-12.28.el6.x86_64 to require for libblkid.so.1(BLKID_1.0)(64bit)
+[2017-04-06 15:00:00,933] DEBUG   : Quick matched e2fsprogs-libs-1.41.12-23.el6.x86_64 to require for libe2p.so.2()(64bit)
+[2017-04-06 15:00:00,942] DEBUG   : TSINFO: Marking info-4.13a-8.el6.x86_64 as install for 1:findutils-4.4.2-9.el6.x86_64
+[2017-04-06 15:00:00,944] DEBUG   : TSINFO: Marking libselinux-2.0.94-7.el6.x86_64 as install for 1:findutils-4.4.2-9.el6.x86_64
+[2017-04-06 15:00:00,948] DEBUG   : TSINFO: Marking redhat-logos-60.0.14-12.el6.centos.noarch as install for 1:grub-0.97-99.el6.x86_64
+[2017-04-06 15:00:00,949] DEBUG   : TSINFO: Marking coreutils-8.4-46.el6.x86_64 as install for 1:grub-0.97-99.el6.x86_64
+[2017-04-06 15:00:00,951] DEBUG   : TSINFO: Marking python-2.6.6-66.el6_8.x86_64 as install for 1:grub-0.97-99.el6.x86_64
+[2017-04-06 15:00:00,962] DEBUG   : TSINFO: Marking iptables-1.4.7-16.el6.x86_64 as install for iproute-2.6.32-54.el6.x86_64
+[2017-04-06 15:00:00,962] DEBUG   : Quick matched iptables-1.4.7-16.el6.x86_64 to require for libxtables.so.4()(64bit)
+[2017-04-06 15:00:00,965] DEBUG   : TSINFO: Marking db4-4.7.25-22.el6.x86_64 as install for iproute-2.6.32-54.el6.x86_64
+[2017-04-06 15:00:00,969] DEBUG   : TSINFO: Marking initscripts-9.03.58-1.el6.centos.x86_64 as install for iputils-20071127-24.el6.x86_64
+[2017-04-06 15:00:00,970] DEBUG   : TSINFO: Marking chkconfig-1.3.49.5-1.el6.x86_64 as install for iputils-20071127-24.el6.x86_64
+[2017-04-06 15:00:01,033] DEBUG   : TSINFO: Marking kernel-firmware-2.6.32-696.el6.noarch as install for kernel-2.6.32-696.el6.x86_64
+[2017-04-06 15:00:01,034] DEBUG   : TSINFO: Marking grubby-7.0.15-7.el6.x86_64 as install for kernel-2.6.32-696.el6.x86_64
+[2017-04-06 15:00:01,035] DEBUG   : TSINFO: Marking dracut-kernel-004-409.el6_8.2.noarch as install for kernel-2.6.32-696.el6.x86_64
+[2017-04-06 15:00:01,037] DEBUG   : TSINFO: Marking module-init-tools-3.9-26.el6.x86_64 as install for kernel-2.6.32-696.el6.x86_64
+[2017-04-06 15:00:01,049] DEBUG   : TSINFO: Marking pam-1.1.1-24.el6.x86_64 as install for passwd-0.77-7.el6.x86_64
+[2017-04-06 15:00:01,054] DEBUG   : TSINFO: Marking audit-libs-2.4.5-6.el6.x86_64 as install for passwd-0.77-7.el6.x86_64
+[2017-04-06 15:00:01,056] DEBUG   : TSINFO: Marking popt-1.13-7.el6.x86_64 as install for passwd-0.77-7.el6.x86_64
+[2017-04-06 15:00:01,057] DEBUG   : Quick matched pam-1.1.1-24.el6.x86_64 to require for libpam.so.0(LIBPAM_1.0)(64bit)
+[2017-04-06 15:00:01,059] DEBUG   : TSINFO: Marking libuser-0.56.13-8.el6_7.x86_64 as install for passwd-0.77-7.el6.x86_64
+[2017-04-06 15:00:01,060] DEBUG   : Quick matched pam-1.1.1-24.el6.x86_64 to require for libpam.so.0()(64bit)
+[2017-04-06 15:00:01,062] DEBUG   : TSINFO: Marking glib2-2.28.8-9.el6.x86_64 as install for passwd-0.77-7.el6.x86_64
+[2017-04-06 15:00:01,062] DEBUG   : Quick matched glib2-2.28.8-9.el6.x86_64 to require for libgobject-2.0.so.0()(64bit)
+[2017-04-06 15:00:01,062] DEBUG   : Quick matched glib2-2.28.8-9.el6.x86_64 to require for libgmodule-2.0.so.0()(64bit)
+[2017-04-06 15:00:01,062] DEBUG   : Quick matched glib2-2.28.8-9.el6.x86_64 to require for libglib-2.0.so.0()(64bit)
+[2017-04-06 15:00:01,069] DEBUG   : TSINFO: Marking setup-2.8.14-23.el6.noarch as install for 2:shadow-utils-4.1.5.1-5.el6.x86_64
+[2017-04-06 15:00:01,071] DEBUG   : TSINFO: Marking libsemanage-2.0.43-5.1.el6.x86_64 as install for 2:shadow-utils-4.1.5.1-5.el6.x86_64
+[2017-04-06 15:00:01,073] DEBUG   : TSINFO: Marking libattr-2.4.44-7.el6.x86_64 as install for 2:shadow-utils-4.1.5.1-5.el6.x86_64
+[2017-04-06 15:00:01,075] DEBUG   : TSINFO: Marking libacl-2.2.49-7.el6.x86_64 as install for 2:shadow-utils-4.1.5.1-5.el6.x86_64
+[2017-04-06 15:00:01,083] DEBUG   : TSINFO: Marking udev-147-2.73.el6_8.2.x86_64 as install for util-linux-ng-2.17.2-12.28.el6.x86_64
+[2017-04-06 15:00:01,085] DEBUG   : TSINFO: Marking libutempter-1.1.5-4.1.el6.x86_64 as install for util-linux-ng-2.17.2-12.28.el6.x86_64
+[2017-04-06 15:00:01,086] DEBUG   : Quick matched libutempter-1.1.5-4.1.el6.x86_64 to require for libutempter.so.0()(64bit)
+[2017-04-06 15:00:01,088] DEBUG   : TSINFO: Marking libsepol-2.0.41-4.el6.x86_64 as install for util-linux-ng-2.17.2-12.28.el6.x86_64
+[2017-04-06 15:00:01,094] DEBUG   : TSINFO: Marking yum-metadata-parser-1.1.2-16.el6.x86_64 as install for yum-3.2.29-81.el6.centos.noarch
+[2017-04-06 15:00:01,095] DEBUG   : TSINFO: Marking rpm-4.8.0-55.el6.x86_64 as install for yum-3.2.29-81.el6.centos.noarch
+[2017-04-06 15:00:01,096] DEBUG   : TSINFO: Marking python-urlgrabber-3.9.1-11.el6.noarch as install for yum-3.2.29-81.el6.centos.noarch
+[2017-04-06 15:00:01,098] DEBUG   : TSINFO: Marking yum-plugin-fastestmirror-1.1.30-40.el6.noarch as install for yum-3.2.29-81.el6.centos.noarch
+[2017-04-06 15:00:01,099] DEBUG   : TSINFO: Marking rpm-python-4.8.0-55.el6.x86_64 as install for yum-3.2.29-81.el6.centos.noarch
+[2017-04-06 15:00:01,101] DEBUG   : TSINFO: Marking python-iniparse-0.3.1-2.1.el6.noarch as install for yum-3.2.29-81.el6.centos.noarch
+[2017-04-06 15:00:01,102] DEBUG   : TSINFO: Marking pygpgme-0.1-18.20090824bzr68.el6.x86_64 as install for yum-3.2.29-81.el6.centos.noarch
+[2017-04-06 15:00:01,113] DEBUG   : TSINFO: Marking coreutils-libs-8.4-46.el6.x86_64 as install for coreutils-8.4-46.el6.x86_64
+[2017-04-06 15:00:01,114] DEBUG   : TSINFO: Marking ncurses-5.7-4.20090207.el6.x86_64 as install for coreutils-8.4-46.el6.x86_64
+[2017-04-06 15:00:01,116] DEBUG   : TSINFO: Marking grep-2.20-6.el6.x86_64 as install for coreutils-8.4-46.el6.x86_64
+[2017-04-06 15:00:01,120] DEBUG   : TSINFO: Marking gmp-4.3.1-12.el6.x86_64 as install for coreutils-8.4-46.el6.x86_64
+[2017-04-06 15:00:01,120] DEBUG   : Quick matched gmp-4.3.1-12.el6.x86_64 to require for libgmp.so.3()(64bit)
+[2017-04-06 15:00:01,124] DEBUG   : TSINFO: Marking dracut-004-409.el6_8.2.noarch as install for dracut-kernel-004-409.el6_8.2.noarch
+[2017-04-06 15:00:01,132] DEBUG   : TSINFO: Marking shared-mime-info-0.70-6.el6.x86_64 as install for glib2-2.28.8-9.el6.x86_64
+[2017-04-06 15:00:01,136] DEBUG   : TSINFO: Marking gamin-0.1.10-9.el6.x86_64 as install for glib2-2.28.8-9.el6.x86_64
+[2017-04-06 15:00:01,143] DEBUG   : TSINFO: Marking glibc-common-2.12-1.209.el6.x86_64 as install for glibc-2.12-1.209.el6.x86_64
+[2017-04-06 15:00:01,148] DEBUG   : TSINFO: Marking libgcc-4.4.7-18.el6.x86_64 as install for glibc-2.12-1.209.el6.x86_64
+[2017-04-06 15:00:01,151] DEBUG   : TSINFO: Marking nss-softokn-freebl-3.14.3-23.3.el6_8.x86_64 as install for glibc-2.12-1.209.el6.x86_64
+[2017-04-06 15:00:01,153] DEBUG   : TSINFO: Marking basesystem-10.0-4.el6.noarch as install for glibc-2.12-1.209.el6.x86_64
+[2017-04-06 15:00:01,169] DEBUG   : TSINFO: Marking upstart-0.6.5-16.el6.x86_64 as install for initscripts-9.03.58-1.el6.centos.x86_64
+[2017-04-06 15:00:01,171] DEBUG   : TSINFO: Marking sysvinit-tools-2.87-6.dsf.el6.x86_64 as install for initscripts-9.03.58-1.el6.centos.x86_64
+[2017-04-06 15:00:01,172] DEBUG   : TSINFO: Marking 2:ethtool-3.5-6.el6.x86_64 as install for initscripts-9.03.58-1.el6.centos.x86_64
+[2017-04-06 15:00:01,174] DEBUG   : TSINFO: Marking plymouth-0.8.3-29.el6.centos.x86_64 as install for initscripts-9.03.58-1.el6.centos.x86_64
+[2017-04-06 15:00:01,176] DEBUG   : TSINFO: Marking net-tools-1.60-114.el6.x86_64 as install for initscripts-9.03.58-1.el6.centos.x86_64
+[2017-04-06 15:00:01,177] DEBUG   : TSINFO: Marking mingetty-1.08-5.el6.x86_64 as install for initscripts-9.03.58-1.el6.centos.x86_64
+[2017-04-06 15:00:01,179] DEBUG   : TSINFO: Marking cpio-2.10-13.el6.x86_64 as install for initscripts-9.03.58-1.el6.centos.x86_64
+[2017-04-06 15:00:01,184] DEBUG   : TSINFO: Marking procps-3.2.8-45.el6.x86_64 as install for initscripts-9.03.58-1.el6.centos.x86_64
+[2017-04-06 15:00:01,186] DEBUG   : TSINFO: Marking psmisc-22.6-24.el6.x86_64 as install for initscripts-9.03.58-1.el6.centos.x86_64
+[2017-04-06 15:00:01,187] DEBUG   : TSINFO: Marking sed-4.2.1-10.el6.x86_64 as install for initscripts-9.03.58-1.el6.centos.x86_64
+[2017-04-06 15:00:01,189] DEBUG   : TSINFO: Marking gawk-3.1.7-10.el6_7.3.x86_64 as install for initscripts-9.03.58-1.el6.centos.x86_64
+[2017-04-06 15:00:01,193] DEBUG   : TSINFO: Marking policycoreutils-2.0.83-30.1.el6_8.x86_64 as install for iptables-1.4.7-16.el6.x86_64
+[2017-04-06 15:00:01,198] DEBUG   : TSINFO: Marking keyutils-libs-1.4-5.el6.x86_64 as install for krb5-libs-1.10.3-65.el6.x86_64
+[2017-04-06 15:00:01,199] DEBUG   : Quick matched keyutils-libs-1.4-5.el6.x86_64 to require for libkeyutils.so.1()(64bit)
+[2017-04-06 15:00:01,211] DEBUG   : TSINFO: Marking ustr-1.0.4-9.1.el6.x86_64 as install for libsemanage-2.0.43-5.1.el6.x86_64
+[2017-04-06 15:00:01,211] DEBUG   : Quick matched ustr-1.0.4-9.1.el6.x86_64 to require for libustr-1.0.so.1(USTR_1.0)(64bit)
+[2017-04-06 15:00:01,215] DEBUG   : TSINFO: Marking bzip2-libs-1.0.5-7.el6_0.x86_64 as install for libsemanage-2.0.43-5.1.el6.x86_64
+[2017-04-06 15:00:01,222] DEBUG   : TSINFO: Marking openldap-2.4.40-16.el6.x86_64 as install for libuser-0.56.13-8.el6_7.x86_64
+[2017-04-06 15:00:01,228] DEBUG   : TSINFO: Marking binutils-2.20.51.0.2-5.46.el6.x86_64 as install for module-init-tools-3.9-26.el6.x86_64
+[2017-04-06 15:00:01,230] DEBUG   : TSINFO: Marking ncurses-base-5.7-4.20090207.el6.x86_64 as install for ncurses-libs-5.7-4.20090207.el6.x86_64
+[2017-04-06 15:00:01,234] DEBUG   : TSINFO: Marking ca-certificates-2016.2.10-65.4.el6.noarch as install for openssl-1.0.1e-57.el6.x86_64
+[2017-04-06 15:00:01,235] DEBUG   : TSINFO: Marking 1:make-3.81-23.el6.x86_64 as install for openssl-1.0.1e-57.el6.x86_64
+[2017-04-06 15:00:01,241] DEBUG   : TSINFO: Marking cracklib-dicts-2.8.16-4.el6.x86_64 as install for pam-1.1.1-24.el6.x86_64
+[2017-04-06 15:00:01,245] DEBUG   : TSINFO: Marking cracklib-2.8.16-4.el6.x86_64 as install for pam-1.1.1-24.el6.x86_64
+[2017-04-06 15:00:01,245] DEBUG   : Quick matched cracklib-2.8.16-4.el6.x86_64 to require for libcrack.so.2()(64bit)
+[2017-04-06 15:00:01,249] DEBUG   : TSINFO: Marking gpgme-1.1.8-3.el6.x86_64 as install for pygpgme-0.1-18.20090824bzr68.el6.x86_64
+[2017-04-06 15:00:01,250] DEBUG   : Quick matched gpgme-1.1.8-3.el6.x86_64 to require for libgpgme.so.11(GPGME_1.0)(64bit)
+[2017-04-06 15:00:01,253] DEBUG   : TSINFO: Marking python-libs-2.6.6-66.el6_8.x86_64 as install for pygpgme-0.1-18.20090824bzr68.el6.x86_64
+[2017-04-06 15:00:01,258] DEBUG   : TSINFO: Marking python-pycurl-7.19.0-9.el6.x86_64 as install for python-urlgrabber-3.9.1-11.el6.noarch
+[2017-04-06 15:00:01,264] DEBUG   : TSINFO: Marking db4-utils-4.7.25-22.el6.x86_64 as install for rpm-4.8.0-55.el6.x86_64
+[2017-04-06 15:00:01,266] DEBUG   : TSINFO: Marking curl-7.19.7-52.el6.x86_64 as install for rpm-4.8.0-55.el6.x86_64
+[2017-04-06 15:00:01,268] DEBUG   : TSINFO: Marking rpm-libs-4.8.0-55.el6.x86_64 as install for rpm-4.8.0-55.el6.x86_64
+[2017-04-06 15:00:01,268] DEBUG   : Quick matched rpm-libs-4.8.0-55.el6.x86_64 to require for librpmbuild.so.1()(64bit)
+[2017-04-06 15:00:01,268] DEBUG   : Quick matched rpm-libs-4.8.0-55.el6.x86_64 to require for librpm.so.1()(64bit)
+[2017-04-06 15:00:01,272] DEBUG   : TSINFO: Marking nss-3.27.1-13.el6.x86_64 as install for rpm-4.8.0-55.el6.x86_64
+[2017-04-06 15:00:01,274] DEBUG   : TSINFO: Marking file-libs-5.04-30.el6.x86_64 as install for rpm-4.8.0-55.el6.x86_64
+[2017-04-06 15:00:01,277] DEBUG   : TSINFO: Marking xz-libs-4.999.9-0.5.beta.20091007git.el6.x86_64 as install for rpm-4.8.0-55.el6.x86_64
+[2017-04-06 15:00:01,279] DEBUG   : TSINFO: Marking lua-5.1.4-4.1.el6.x86_64 as install for rpm-4.8.0-55.el6.x86_64
+[2017-04-06 15:00:01,281] DEBUG   : TSINFO: Marking elfutils-libelf-0.164-2.el6.x86_64 as install for rpm-4.8.0-55.el6.x86_64
+[2017-04-06 15:00:01,289] DEBUG   : TSINFO: Marking MAKEDEV-3.24-6.el6.x86_64 as install for udev-147-2.73.el6_8.2.x86_64
+[2017-04-06 15:00:01,290] DEBUG   : TSINFO: Marking hwdata-0.233-18.1.el6.noarch as install for udev-147-2.73.el6_8.2.x86_64
+[2017-04-06 15:00:01,292] DEBUG   : TSINFO: Marking libusb-0.1.12-23.el6.x86_64 as install for udev-147-2.73.el6_8.2.x86_64
+[2017-04-06 15:00:01,296] DEBUG   : TSINFO: Marking sqlite-3.6.20-1.el6_7.2.x86_64 as install for yum-metadata-parser-1.1.2-16.el6.x86_64
+[2017-04-06 15:00:01,300] DEBUG   : TSINFO: Marking filesystem-2.4.30-3.el6.x86_64 as install for basesystem-10.0-4.el6.noarch
+[2017-04-06 15:00:01,307] DEBUG   : TSINFO: Marking p11-kit-trust-0.18.5-2.el6_5.2.x86_64 as install for ca-certificates-2016.2.10-65.4.el6.noarch
+[2017-04-06 15:00:01,311] DEBUG   : TSINFO: Marking p11-kit-0.18.5-2.el6_5.2.x86_64 as install for ca-certificates-2016.2.10-65.4.el6.noarch
+[2017-04-06 15:00:01,314] DEBUG   : TSINFO: Marking gzip-1.3.12-24.el6.x86_64 as install for cracklib-2.8.16-4.el6.x86_64
+[2017-04-06 15:00:01,322] DEBUG   : TSINFO: Marking libcurl-7.19.7-52.el6.x86_64 as install for curl-7.19.7-52.el6.x86_64
+[2017-04-06 15:00:01,324] DEBUG   : TSINFO: Marking libssh2-1.4.2-2.el6_7.1.x86_64 as install for curl-7.19.7-52.el6.x86_64
+[2017-04-06 15:00:01,326] DEBUG   : TSINFO: Marking nspr-4.13.1-1.el6.x86_64 as install for curl-7.19.7-52.el6.x86_64
+[2017-04-06 15:00:01,326] DEBUG   : Quick matched nspr-4.13.1-1.el6.x86_64 to require for libplc4.so()(64bit)
+[2017-04-06 15:00:01,329] DEBUG   : TSINFO: Marking nss-util-3.27.1-3.el6.x86_64 as install for curl-7.19.7-52.el6.x86_64
+[2017-04-06 15:00:01,337] DEBUG   : TSINFO: Marking which-2.19-6.el6.x86_64 as install for dracut-004-409.el6_8.2.noarch
+[2017-04-06 15:00:01,338] DEBUG   : TSINFO: Marking 2:tar-1.23-15.el6_8.x86_64 as install for dracut-004-409.el6_8.2.noarch
+[2017-04-06 15:00:01,339] DEBUG   : TSINFO: Marking plymouth-scripts-0.8.3-29.el6.centos.x86_64 as install for dracut-004-409.el6_8.2.noarch
+[2017-04-06 15:00:01,341] DEBUG   : TSINFO: Marking kbd-1.15-11.el6.x86_64 as install for dracut-004-409.el6_8.2.noarch
+[2017-04-06 15:00:01,342] DEBUG   : TSINFO: Marking file-5.04-30.el6.x86_64 as install for dracut-004-409.el6_8.2.noarch
+[2017-04-06 15:00:01,343] DEBUG   : TSINFO: Marking dash-0.5.5.1-4.el6.x86_64 as install for dracut-004-409.el6_8.2.noarch
+[2017-04-06 15:00:01,345] DEBUG   : TSINFO: Marking bzip2-1.0.5-7.el6_0.x86_64 as install for dracut-004-409.el6_8.2.noarch
+[2017-04-06 15:00:01,351] DEBUG   : TSINFO: Marking tzdata-2016j-1.el6.noarch as install for glibc-common-2.12-1.209.el6.x86_64
+[2017-04-06 15:00:01,355] DEBUG   : TSINFO: Marking libstdc++-4.4.7-18.el6.x86_64 as install for gmp-4.3.1-12.el6.x86_64
+[2017-04-06 15:00:01,355] DEBUG   : Quick matched libstdc++-4.4.7-18.el6.x86_64 to require for libstdc++.so.6(GLIBCXX_3.4)(64bit)
+[2017-04-06 15:00:01,355] DEBUG   : Quick matched libstdc++-4.4.7-18.el6.x86_64 to require for libstdc++.so.6(CXXABI_1.3)(64bit)
+[2017-04-06 15:00:01,355] DEBUG   : Quick matched libstdc++-4.4.7-18.el6.x86_64 to require for libstdc++.so.6()(64bit)
+[2017-04-06 15:00:01,358] DEBUG   : TSINFO: Marking gnupg2-2.0.14-8.el6.x86_64 as install for gpgme-1.1.8-3.el6.x86_64
+[2017-04-06 15:00:01,360] DEBUG   : TSINFO: Marking pth-2.0.7-9.3.el6.x86_64 as install for gpgme-1.1.8-3.el6.x86_64
+[2017-04-06 15:00:01,362] DEBUG   : TSINFO: Marking libgpg-error-1.7-4.el6.x86_64 as install for gpgme-1.1.8-3.el6.x86_64
+[2017-04-06 15:00:01,365] DEBUG   : TSINFO: Marking pcre-7.8-7.el6.x86_64 as install for grep-2.20-6.el6.x86_64
+[2017-04-06 15:00:01,371] DEBUG   : TSINFO: Marking readline-6.0-4.el6.x86_64 as install for lua-5.1.4-4.1.el6.x86_64
+[2017-04-06 15:00:01,381] DEBUG   : TSINFO: Marking nss-softokn-3.14.3-23.3.el6_8.x86_64 as install for nss-3.27.1-13.el6.x86_64
+[2017-04-06 15:00:01,382] DEBUG   : TSINFO: Marking nss-sysinit-3.27.1-13.el6.x86_64 as install for nss-3.27.1-13.el6.x86_64
+[2017-04-06 15:00:01,383] DEBUG   : Quick matched nss-softokn-3.14.3-23.3.el6_8.x86_64 to require for libnssdbm3.so()(64bit)
+[2017-04-06 15:00:01,390] DEBUG   : TSINFO: Marking nss-tools-3.27.1-13.el6.x86_64 as install for openldap-2.4.40-16.el6.x86_64
+[2017-04-06 15:00:01,393] DEBUG   : TSINFO: Marking cyrus-sasl-lib-2.1.23-15.el6_6.2.x86_64 as install for openldap-2.4.40-16.el6.x86_64
+[2017-04-06 15:00:01,399] DEBUG   : TSINFO: Marking plymouth-core-libs-0.8.3-29.el6.centos.x86_64 as install for plymouth-0.8.3-29.el6.centos.x86_64
+[2017-04-06 15:00:01,400] DEBUG   : Quick matched plymouth-core-libs-0.8.3-29.el6.centos.x86_64 to require for libply.so.2()(64bit)
+[2017-04-06 15:00:01,400] DEBUG   : Quick matched plymouth-core-libs-0.8.3-29.el6.centos.x86_64 to require for libply-splash-core.so.2()(64bit)
+[2017-04-06 15:00:01,402] DEBUG   : TSINFO: Marking libdrm-2.4.65-2.el6.x86_64 as install for plymouth-0.8.3-29.el6.centos.x86_64
+[2017-04-06 15:00:01,402] DEBUG   : Quick matched libdrm-2.4.65-2.el6.x86_64 to require for libdrm_nouveau.so.1()(64bit)
+[2017-04-06 15:00:01,402] DEBUG   : Quick matched libdrm-2.4.65-2.el6.x86_64 to require for libdrm_intel.so.1()(64bit)
+[2017-04-06 15:00:01,402] DEBUG   : Quick matched libdrm-2.4.65-2.el6.x86_64 to require for libdrm.so.2()(64bit)
+[2017-04-06 15:00:01,408] DEBUG   : TSINFO: Marking libselinux-utils-2.0.94-7.el6.x86_64 as install for policycoreutils-2.0.83-30.1.el6_8.x86_64
+[2017-04-06 15:00:01,409] DEBUG   : TSINFO: Marking checkpolicy-2.0.22-1.el6.x86_64 as install for policycoreutils-2.0.83-30.1.el6_8.x86_64
+[2017-04-06 15:00:01,410] DEBUG   : TSINFO: Marking diffutils-2.8.1-28.el6.x86_64 as install for policycoreutils-2.0.83-30.1.el6_8.x86_64
+[2017-04-06 15:00:01,413] DEBUG   : TSINFO: Marking dbus-glib-0.86-6.el6.x86_64 as install for policycoreutils-2.0.83-30.1.el6_8.x86_64
+[2017-04-06 15:00:01,415] DEBUG   : TSINFO: Marking 1:dbus-libs-1.2.24-8.el6_6.x86_64 as install for policycoreutils-2.0.83-30.1.el6_8.x86_64
+[2017-04-06 15:00:01,423] DEBUG   : TSINFO: Marking expat-2.0.1-13.el6_8.x86_64 as install for python-libs-2.6.6-66.el6_8.x86_64
+[2017-04-06 15:00:01,425] DEBUG   : TSINFO: Marking gdbm-1.8.0-39.el6.x86_64 as install for python-libs-2.6.6-66.el6_8.x86_64
+[2017-04-06 15:00:01,428] DEBUG   : TSINFO: Marking libffi-3.0.5-3.2.el6.x86_64 as install for python-libs-2.6.6-66.el6_8.x86_64
+[2017-04-06 15:00:01,435] DEBUG   : TSINFO: Marking 1:pkgconfig-0.23-9.1.el6.x86_64 as install for shared-mime-info-0.70-6.el6.x86_64
+[2017-04-06 15:00:01,442] DEBUG   : TSINFO: Marking libnih-1.0.1-7.el6.x86_64 as install for upstart-0.6.5-16.el6.x86_64
+[2017-04-06 15:00:01,442] DEBUG   : Quick matched libnih-1.0.1-7.el6.x86_64 to require for libnih-dbus.so.1(LIBNIH_DBUS_1_0)(64bit)
+[2017-04-06 15:00:01,442] DEBUG   : Quick matched libnih-1.0.1-7.el6.x86_64 to require for libnih.so.1()(64bit)
+[2017-04-06 15:00:01,442] DEBUG   : Quick matched libnih-1.0.1-7.el6.x86_64 to require for libnih-dbus.so.1()(64bit)
+[2017-04-06 15:00:01,455] DEBUG   : TSINFO: Marking pinentry-0.7.6-8.el6.x86_64 as install for gnupg2-2.0.14-8.el6.x86_64
+[2017-04-06 15:00:01,457] DEBUG   : TSINFO: Marking libgcrypt-1.4.5-12.el6_8.x86_64 as install for gnupg2-2.0.14-8.el6.x86_64
+[2017-04-06 15:00:01,457] DEBUG   : Quick matched libgcrypt-1.4.5-12.el6_8.x86_64 to require for libgcrypt.so.11()(64bit)
+[2017-04-06 15:00:01,459] DEBUG   : TSINFO: Marking less-436-13.el6.x86_64 as install for gzip-1.3.12-24.el6.x86_64
+[2017-04-06 15:00:01,461] DEBUG   : TSINFO: Marking kbd-misc-1.15-11.el6.noarch as install for kbd-1.15-11.el6.x86_64
+[2017-04-06 15:00:01,468] DEBUG   : TSINFO: Marking libpciaccess-0.13.4-1.el6.x86_64 as install for libdrm-2.4.65-2.el6.x86_64
+[2017-04-06 15:00:01,492] DEBUG   : TSINFO: Marking libtasn1-2.3-6.el6_5.x86_64 as install for p11-kit-0.18.5-2.el6_5.2.x86_64
+[2017-04-06 15:00:01,492] DEBUG   : Quick matched libtasn1-2.3-6.el6_5.x86_64 to require for libtasn1.so.3()(64bit)
+[2017-04-06 15:00:01,502] DEBUG   : TSINFO: Marking groff-1.18.1.4-21.el6.x86_64 as install for less-436-13.el6.x86_64
+[2017-04-06 15:00:01,577] DEBUG   : Depsolve time: 0.771
+[2017-04-06 15:01:12,294] DEBUG   : VerifyTransaction time: 1.292
