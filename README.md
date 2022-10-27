@@ -1,6 +1,6 @@
 # LAMPonAWS
 
-Summer: In this project I created a LAMP stack on an AWS EC2 instance.
+Summer: In this project I created a LAMP stack on an AWS EC2 instance. You can find all the source code content under the /www/html directory.
 
 <img src="https://user-images.githubusercontent.com/49041342/198358181-ece9fa41-fdb0-45d7-84b6-6a055c238c5f.png" width="350">
 
